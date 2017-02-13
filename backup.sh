@@ -1,1 +1,3 @@
-rsync -iav --exclude='*.db' ~/.urlwatch/* ./.urlwatch/
+rsync -av --exclude='*.db' ~/.urlwatch/* ./.urlwatch/
+cp -ir ~/.tmux.conf ./.tmux.conf
+

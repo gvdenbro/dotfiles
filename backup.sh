@@ -1,1 +1,1 @@
-cp -ir ~/.urlwatch/* ./.urlwatch/
+rsync -iav --exclude='*.db' ~/.urlwatch/* ./.urlwatch/

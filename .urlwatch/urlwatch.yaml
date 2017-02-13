@@ -1,0 +1,47 @@
+display:
+  error: true
+  new: true
+  unchanged: false
+report:
+  email:
+    enabled: false
+    from: ''
+    html: false
+    method: smtp
+    sendmail:
+      path: sendmail
+    smtp:
+      host: localhost
+      keyring: true
+      port: 25
+      starttls: true
+    subject: '{count} changes: {jobs}'
+    to: ''
+  html:
+    diff: unified
+  mailgun:
+    api_key: ''
+    domain: ''
+    enabled: false
+    from_mail: ''
+    from_name: ''
+    subject: '{count} changes: {jobs}'
+    to: ''
+  telegram:
+    bot_token: '375229228:AAE7PhSvmF5MCeluGmUItsWBRFgQllzmY5E'
+    chat_id: '46331370'
+    enabled: true
+  pushbullet:
+    api_key: ''
+    enabled: false
+  pushover:
+    app: ''
+    enabled: false
+    user: ''
+  stdout:
+    color: true
+    enabled: true
+  text:
+    details: true
+    footer: false
+    line_length: 20

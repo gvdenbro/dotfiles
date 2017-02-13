@@ -1,0 +1,1 @@
+cp -ir ~/.urlwatch/* ./.urlwatch/

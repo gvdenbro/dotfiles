@@ -108,5 +108,5 @@ filter: element-by-class:views-field views-field-title,html2text:re,strip
 ---
 kind: url
 name: ImmoCC
-url: http://www.immoicc.be/index.php?ETTW_Lang=FR&pg=liste&OxySeleOffr=V&OxySeleImme=01|Maison&OxySelePrix=225000%7C250000&sspg=loca
-filter: "element-by-style:display:block; cursor: pointer; position:relative,html2text,strip"
+url: http://www.immoicc.be/index.php?ETTW_Lang=FR&pg=liste&OxySeleOffr=V&OxySeleImme=01|Maison&OxySelePrix=225000%7C290000&sspg=loca
+filter: "element-by-style:display:block; cursor: pointer; position:relative,html2text:lynx,strip"

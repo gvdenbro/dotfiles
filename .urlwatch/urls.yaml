@@ -94,3 +94,9 @@ kind: url
 name: CapSud5
 url: http://www.cap-sud.com/fr/searchestate?option=com_estatelist&purposesearch=1&categorysearch=house&budgetfromsearch=225000&budgettosearch=290000&countrysearch=1&zip1search=1190&zip2search=1200&zip3search=1210&zip4search=&code_postaux=9980&code_postal_auto=
 filter: element-by-class:article result,html2text:pyhtml2text,strip
+---
+kind: url
+name: Noa
+url: http://www.noa-realestate.be/Web.mvc/fr-be/List1?SearchRequest=true&PurposeID=0&InvestmentEstate=false&CategoryID=1&PriceFrom=225000&PriceTo=290000&OrderBy=&X-Requested-With=XMLHttpRequest&AspxAutoDetectCookieSupport=1&pageNumber=0
+filter: element-by-class:list-mosaic-caption,html2text:pyhtml2text,strip
+cookies: {AspxAutoDetectCookieSupport='1'}

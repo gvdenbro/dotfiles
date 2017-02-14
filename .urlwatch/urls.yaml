@@ -104,4 +104,4 @@ cookies: {AspxAutoDetectCookieSupport='1'}
 kind: url
 name: EventImmo
 url: http://www.eventimmo.be/fr/biens-immobiliers-avendre?field_imob_statuslist_value=All&field_imob_type_value_i18n%5B%5D=1&field_imob_chambre_value=3&field_imob_prix_value%5Bmin%5D=225000&field_imob_prix_value%5Bmax%5D=290000&cp_ville=&sort_by=field_imob_prix_value&sort_order=ASC&view_name=biens_immobiliers&view_display_id=page&view_args=&view_path=biens-immobiliers-avendre&view_base_path=biens-immobiliers-avendre
-filter: element-by-class:views-field views-field-title,html2text:pyhtml2text,strip
+filter: element-by-class:views-field views-field-title,html2text:re,strip

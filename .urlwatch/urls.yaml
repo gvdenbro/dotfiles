@@ -105,3 +105,8 @@ kind: url
 name: EventImmo
 url: http://www.eventimmo.be/fr/biens-immobiliers-avendre?field_imob_statuslist_value=All&field_imob_type_value_i18n%5B%5D=1&field_imob_chambre_value=3&field_imob_prix_value%5Bmin%5D=225000&field_imob_prix_value%5Bmax%5D=290000&cp_ville=&sort_by=field_imob_prix_value&sort_order=ASC&view_name=biens_immobiliers&view_display_id=page&view_args=&view_path=biens-immobiliers-avendre&view_base_path=biens-immobiliers-avendre
 filter: element-by-class:views-field views-field-title,html2text:re,strip
+---
+kind: url
+name: ImmoCC
+url: http://www.immoicc.be/index.php?ETTW_Lang=FR&pg=liste&OxySeleOffr=V&OxySeleImme=01|Maison&OxySelePrix=225000%7C250000&sspg=loca
+filter: "element-by-style:display:block; cursor: pointer; position:relative,html2text,strip"

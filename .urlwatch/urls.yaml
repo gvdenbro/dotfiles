@@ -1,104 +1,104 @@
 kind: url
 name: ImmoOne
 url: http://www.immo-one.eu/fr/a-vendre?view=list&page=1&ptype=1&pricemin=225000&pricemax=290000
-filter: element-by-class:property-info,html2text:pyhtml2text,strip
+filter: element-by-class:property-info,html2text:lynx,strip
 ---
 kind: url
 name: EspaceImmo
 url: http://www.espaceimmobrussels.be/a-vendre/Type-01%7CMaison/Prix-200000%7C290000/NbChambres-3
-filter: element-by-class:cp-bien--content,html2text:pyhtml2text,strip
+filter: element-by-class:cp-bien--content,html2text:lynx,strip
 ---
 kind: url
 name: SybImmo
 url: http://www.sybimmo.be/nl/te-koop/woningen/?type=5&city=Schaarbeek%2CSint-Agatha-Berchem%2CSint-Gillis%2CSint-Jans-Molenbeek&price-range=200000+-+290000
-filter: element-by-class:imgExt,html2text:pyhtml2text,strip
+filter: element-by-class:imgExt,html2text:lynx,strip
 ---
 kind: url
 name: MacNash
 url: http://www.macnash.com/ui/propertyitems.aspx?ZPTID=3&TT=0&PMax=290000&RMin=3&Search=1000,1030,1040,1050,1060,1070,1080,1081,1082,1083,1090,1140,1150,1160,1170,1180,1190,1200,1210
-filter: element-by-class:caption,html2text:pyhtml2text,strip
+filter: element-by-class:caption,html2text:lynx,strip
 ---
 kind: url
 name: Trevi
 url: http://www.trevi.be/fr/residentiel/recherche?goal=0&web_id=1&geo=7148&price_from=225000&price_to=290000&bed=3&page=1
-filter: element-by-class:result-estate-content,html2text:pyhtml2text,strip
+filter: element-by-class:result-estate-content,html2text:lynx,strip
 ---
 kind: url
 name: Era
 url: https://www.era.be/nl/te-koop/brussel/huis?muni-brussel=brussel&price=200000+270000&rooms=3+4
-filter: element-by-class:group-main,html2text:pyhtml2text,strip
+filter: element-by-class:group-main,html2text:lynx,strip
 ---
 kind: url
 name: DirectImmo
 url: http://www.direct-immo.be/fr/a-vendre?view=list&page=1&ptype=1&pricemin=225000&pricemax=290000
-filter: element-by-class:property-info,html2text:pyhtml2text,strip
+filter: element-by-class:property-info,html2text:lynx,strip
 ---
 kind: url
 name: ImmoGrootLeeuw
 url: http://www.immogrootleeuw.be/fr/a-vendre/?type=5&city=Anderlecht%2CGroot-Bijgaarden%2CJette&price-range=200000+-+290000
-filter: element-by-class:imgExt,html2text:pyhtml2text,strip
+filter: element-by-class:imgExt,html2text:lynx,strip
 ---
 kind: url
 name: Panasi
 url: http://www.panasi.be/fr/a-vendre/maisons?view=list&page=1&ptype=1&pricemin=225000&pricemax=290000
-filter: element-by-class:desc,html2text:pyhtml2text,strip
+filter: element-by-class:desc,html2text:lynx,strip
 ---
 kind: url
 name: NewTendances
 url: http://www.newtendances.be/index.php?action=list&ctypmandatmeta=v&reference=&categories%5B%5D=Maison&chambre_min=3&villes%5B%5D=Brussel+21&villes%5B%5D=Bruxelles++1&villes%5B%5D=Bruxelles++2&villes%5B%5D=Evere&villes%5B%5D=Forest&villes%5B%5D=Ixelles&villes%5B%5D=Koekelberg&villes%5B%5D=Molenbeek-Saint-Jean&villes%5B%5D=Saint+Josse&villes%5B%5D=Saint-Gilles&villes%5B%5D=Schaerbeek&villes%5B%5D=Watermael-Boitsfort&villes%5B%5D=Woluw%C3%A9-Saint-Pierre&prix_max=290000
-filter: element-by-class:item-description alt,html2text:pyhtml2text,strip
+filter: element-by-class:item-description alt,html2text:lynx,strip
 ---
 kind: url
 name: Century21
 url: http://www.century21.be/en/house/for-sale/belgium/brussels/-0km/250000-290000/3_bedrooms/
-filter: element-by-class:about,html2text:pyhtml2text,strip
+filter: element-by-class:about,html2text:lynx,strip
 ---
 kind: url
 name: Brikman
 url: http://www.brikman.be/Web.mvc/fr-be/List1?SearchRequest=true&PurposeID=0&Reference=&EstateName=&InvestmentEstate=false&CategoryID=0&Furnished=false&PriceFrom=225000&PriceTo=290000&Rooms=0&RegionID=0&ZipListValue=&OrderBy=&X-Requested-With=XMLHttpRequest&AspxAutoDetectCookieSupport=1&pageNumber=0
-filter: element-by-class:list-mosaic-caption,html2text:pyhtml2text,strip
+filter: element-by-class:list-mosaic-caption,html2text:lynx,strip
 cookies: {AspxAutoDetectCookieSupport='1'}
 ---
 kind: url
 name: 5thCorner
 url: http://www.5thcorner.brussels/Web.mvc/en-gb/List1?SearchRequest=true&PurposeID=0&InvestmentEstate=false&CategoryID=0&PriceFrom=225000&PriceTo=290000&OrderBy=&X-Requested-With=XMLHttpRequest&AspxAutoDetectCookieSupport=1&pageNumber=0
-filter: element-by-class:list-mosaic-caption,html2text:pyhtml2text,strip
+filter: element-by-class:list-mosaic-caption,html2text:lynx,strip
 cookies: {AspxAutoDetectCookieSupport='1'}
 ---
 kind: url
 name: Pajota
 url: https://www.pajota.be/nl/te-koop/woningen/3-kamers/min-230000-euro/max-290000-euro/zip-1000-1030-1040-1050-1060-1070-1080-1081-1082-1083-1090-1140-1150-1160-1170-1180-1190-1200-1210/
-filter: element-by-class:marks,html2text:pyhtml2text,strip
+filter: element-by-class:marks,html2text:lynx,strip
 ---
 kind: url
 name: CapSud1
 url: http://www.cap-sud.com/fr/searchestate?option=com_estatelist&purposesearch=1&categorysearch=house&budgetfromsearch=225000&budgettosearch=290000&countrysearch=1&zip1search=1000&zip2search=1030&zip3search=1040&zip4search=1050&code_postaux=9980&code_postal_auto=
-filter: element-by-class:article result,html2text:pyhtml2text,strip
+filter: element-by-class:article result,html2text:lynx,strip
 ---
 kind: url
 name: CapSud2
 url: http://www.cap-sud.com/fr/searchestate?option=com_estatelist&purposesearch=1&categorysearch=house&budgetfromsearch=225000&budgettosearch=290000&countrysearch=1&zip1search=1060&zip2search=1070&zip3search=1080&zip4search=1081&code_postaux=9980&code_postal_auto=
-filter: element-by-class:article result,html2text:pyhtml2text,strip
+filter: element-by-class:article result,html2text:lynx,strip
 ---
 kind: url
 name: CapSud3
 url: http://www.cap-sud.com/fr/searchestate?option=com_estatelist&purposesearch=1&categorysearch=house&budgetfromsearch=225000&budgettosearch=290000&countrysearch=1&zip1search=1082&zip2search=1083&zip3search=1090&zip4search=1140&code_postaux=9980&code_postal_auto=
-filter: element-by-class:article result,html2text:pyhtml2text,strip
+filter: element-by-class:article result,html2text:lynx,strip
 ---
 kind: url
 name: CapSud4
 url: http://www.cap-sud.com/fr/searchestate?option=com_estatelist&purposesearch=1&categorysearch=house&budgetfromsearch=225000&budgettosearch=290000&countrysearch=1&zip1search=1150&zip2search=1160&zip3search=1170&zip4search=1180&code_postaux=9980&code_postal_auto=
-filter: element-by-class:article result,html2text:pyhtml2text,strip
+filter: element-by-class:article result,html2text:lynx,strip
 ---
 kind: url
 name: CapSud5
 url: http://www.cap-sud.com/fr/searchestate?option=com_estatelist&purposesearch=1&categorysearch=house&budgetfromsearch=225000&budgettosearch=290000&countrysearch=1&zip1search=1190&zip2search=1200&zip3search=1210&zip4search=&code_postaux=9980&code_postal_auto=
-filter: element-by-class:article result,html2text:pyhtml2text,strip
+filter: element-by-class:article result,html2text:lynx,strip
 ---
 kind: url
 name: Noa
 url: http://www.noa-realestate.be/Web.mvc/fr-be/List1?SearchRequest=true&PurposeID=0&InvestmentEstate=false&CategoryID=1&PriceFrom=225000&PriceTo=290000&OrderBy=&X-Requested-With=XMLHttpRequest&AspxAutoDetectCookieSupport=1&pageNumber=0
-filter: element-by-class:list-mosaic-caption,html2text:pyhtml2text,strip
+filter: element-by-class:list-mosaic-caption,html2text:lynx,strip
 cookies: {AspxAutoDetectCookieSupport='1'}
 ---
 kind: url

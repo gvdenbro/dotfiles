@@ -110,3 +110,9 @@ kind: url
 name: ImmoCC
 url: http://www.immoicc.be/index.php?ETTW_Lang=FR&pg=liste&OxySeleOffr=V&OxySeleImme=01|Maison&OxySelePrix=225000%7C290000&sspg=loca
 filter: "element-by-style:display:block; cursor: pointer; position:relative,html2text:lynx,strip"
+---
+kind: url
+name: UrbanConcept
+url: http://www.urban-concept.be/Web.mvc/fr-be/List1?SearchRequest=true&PurposeID=0&Reference=&EstateName=&InvestmentEstate=false&CategoryID=1&Furnished=false&PriceFrom=225000&PriceTo=290000&Rooms=0&RegionID=19584&ZipListValue=&OrderBy=Price%2CDESC&X-Requested-With=XMLHttpRequest
+filter: element-by-class:list-mosaic-caption,html2text:lynx,strip
+cookies: {AspxAutoDetectCookieSupport='1'}

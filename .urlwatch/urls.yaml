@@ -116,3 +116,13 @@ name: UrbanConcept
 url: http://www.urban-concept.be/Web.mvc/fr-be/List1?SearchRequest=true&PurposeID=0&Reference=&EstateName=&InvestmentEstate=false&CategoryID=1&Furnished=false&PriceFrom=225000&PriceTo=290000&Rooms=0&RegionID=19584&ZipListValue=&OrderBy=Price%2CDESC&X-Requested-With=XMLHttpRequest
 filter: element-by-class:list-mosaic-caption,html2text:lynx,strip
 cookies: {AspxAutoDetectCookieSupport='1'}
+---
+kind: url
+name: ImmoFilo
+url: http://www.immofilo.be/index.php?page=liste&OxySeleOffr=V&OxySeleImme=01|Maison&OxySelePrix=225000%7C290000&OxySeleGeog=01|BRUXELLES%2019%20COMMUNES%20&%20EXTENSIONS&OxySeleOrdre=PRIX%20ASC,COMM%20ASC,CODE
+filter: "element-by-style:display:block; cursor: pointer; position:relative,html2text:lynx,strip"
+---
+kind: url
+name: MetroP
+url: http://www.metrop.be/index.php?page=liste&OxySeleOffr=V&OxySeleImme=01|Maison&OxySelePrix=225000%7C290000&view=&OxySeleOrdre=PRIX%20ASC,COMM%20ASC,CODE
+filter: "element-by-style:display:block; cursor: pointer; position:relative,html2text:lynx,strip"

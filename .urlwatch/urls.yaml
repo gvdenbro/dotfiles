@@ -131,3 +131,8 @@ kind: url
 name: ahre
 url: http://www.ahre.be/index.php?page=liste&OxySeleOffr=V&OxySeleImme=01|Maison&OxySelePrix=225000%7C290000&view=&OxySeleOrdre=PRIX%20ASC,COMM%20ASC,CODE
 filter: "element-by-style:display:block; cursor: no-drop; position:relative,html2text:lynx,strip"
+---
+kind: url
+name: AbriEurope
+url: http://www.abri-europe.be/SNWebBuilder.php?page=/common/search/large,action=[products];type;sell:[products];pricefrom;225000:[products];priceto;290000:[products];matchinggroup;2475886:[products];regionid;2475888:[products];country;all,rememberpage=no,state=
+filter: element-by-class:vignette,html2text:lynx,strip

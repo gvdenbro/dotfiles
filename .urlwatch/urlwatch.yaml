@@ -30,7 +30,7 @@ report:
   telegram:
     bot_token: '375229228:AAE7PhSvmF5MCeluGmUItsWBRFgQllzmY5E'
     chat_id: '46331370'
-    enabled: false
+    enabled: true
   pushbullet:
     api_key: ''
     enabled: false

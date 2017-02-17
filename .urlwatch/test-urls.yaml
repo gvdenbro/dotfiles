@@ -1,5 +1,5 @@
 kind: url
-name: Flho
-url: http://www.flho.be/Web.mvc/fr-be/List3?AspxAutoDetectCookieSupport=1&SearchRequest=true&Purpose1=on&PurposeID=1&Reference=&EstateName=&InvestmentEstate=false&CategoryID=1&Furnished=false&PriceFrom=225000&PriceTo=290000&Rooms=0&RegionID=0&ZipListValue=1000,1030,1040,1050,1060,1070,1080,1081,1082,1083,1090,1140,1150,1160,1170,1180,1190,1200,1210&OrderBy=Price%2CDESC&X-Requested-With=XMLHttpRequest
+name: ImmoCenta
+url: http://www.alphabitat.be/Web.mvc/fr-be/List3?SearchRequest=true&Purpose1=on&PurposeID=1&Reference=&EstateName=&InvestmentEstate=false&CategoryID=1&Furnished=false&PriceFrom=225000&PriceTo=290000&Rooms=0&RegionID=20341&ZipListValue=&OrderBy=Price%2CDESC
 filter: element-by-class:list-mosaic-caption,html2text:lynx,strip
 cookies: {AspxAutoDetectCookieSupport='1'}

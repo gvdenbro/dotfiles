@@ -1,4 +1,6 @@
 kind: url
-name: ImmoCis
-url: http://www.immocis.be/en/sales?view=list&page=1&ptype=1&pricemin=225000&pricemax=290000&sort=price
-filter: 'element-by-class:property-list,html2text:lynx,strip'
+name: LaRockImmo
+url: http://www.larockimmo.be/en-GB/List/16?SelectedCities=1000,1030,1040,1050,1060,1070,1080,1081,1082,1083,1090,1140,1150,1160,1170,1180,1190,1200,1210
+filter: 'element-by-class:estate-thumb,html2text:lynx,strip'
+cookies: {"__RequestVerificationToken": "KZKQBXv0tc573QBoj7sgUjjVvVr4JCPTk6uIZ9ut-TgoGdRuVFIcuPlkxhaZIbmi6vJeIj2Eil7U0GbUff2_KICljfMIdW4-iaGIYmyDL681", "_culture": "en-GB"}
+data: {"ListID": "16", "SearchType": "ToSell", "SelectedType": "1", "MinPrice": "225000", "MaxPrice": "290000", "__RequestVerificationToken": "NbVgLhpunZeoQQLbb2GsruyikGwey3SBNyL8JUd8zJGydBebhJkFbE6dUBbi42a08n1GialpuIlDCMxtQuM0FIdgo1wXv8lRYPeva6tC9uA1"}

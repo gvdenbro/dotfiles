@@ -215,3 +215,34 @@ name: Trior
 url: http://www.trior.be/Biens-immobiliers/Recherche/A-vendre
 filter: 'element-by-class:contour,html2text:lynx,strip'
 data: {"type": "1", "tabzip": "1000/1030/1040/1050/1060/1070/1080/1081/1082/1083/1090/1140/1150/1160/1170/1180/1190/1200/1210/", "prixMin": "225000", "prixMax":"290000"}
+---
+kind: url
+name: JetImmo
+url: http://www.jetimmo.eu/fr/vente.php?OxySeleOffr=V&OxySeleImme=01&lang=FR&OxySelePrix=225000%7C290000
+filter: 'element-by-class:ventept,html2text:lynx,strip'
+---
+kind: url
+name: EuroHouse
+url: http://www.eurohouse.be/Web.mvc/fr-be/List1?pageNumber=0&isAjaxRequest=True
+filter: 'element-by-id:listItemContainer,html2text:lynx,strip'
+cookies: {"AspxAutoDetectCookieSupport": "1"}
+data: {"SearchRequest": "true", ZipListValue: "1000,1030,1040,1050,1060,1070,1080,1081,1082,1083,1090,1140,1150,1160,1170,1180,1190,1200,1210", CategoryID: "1", Price: "225000,290000", X-Requested-With: "XMLHttpRequest"}
+---
+kind: url
+name: ImmoBolle
+url: http://www.immobolle.be/en-GB?SelectedCities=1000,1030,1040,1050,1060,1070,1080,1081,1082,1083,1090,1140,1150,1160,1170,1180,1190,1200,1210
+filter: 'element-by-class:estate-thumb,html2text:lynx,strip'
+cookies: {"__RequestVerificationToken": "Yq87PnEC76ZS4Sp-k2gQn9WPYtq8H-krNScNizYU8PpJpN2b3ZSG3cozQIUxicbWx_LqjoIbOaSiD6Hp6jQuLckA-aZ2XhLHn8Lv64yOUD01", "_culture": "en-GB"}
+data: {"ListID": "16", "SearchTypeRent": "False", "SearchTypeSell": "True", "SelectedType": "1", "MinPrice": "225000", "MaxPrice": "290000", "__RequestVerificationToken": "jHr1nm92Ge7-CSIBP4DF-W9je-LAeJ6RvbOWK1f5TapGdNF0TFFq8Sr1mcvSjoFT5W0OiMUdek0D9yUg3OGOzooP015W5_7rlP9wBAtP9aA1"}
+---
+kind: url
+name: Chrysalide
+url: http://www.immochrysalide.be/Web.mvc/fr-be/List3
+filter: 'element-by-id:listItemContainer,html2text:lynx,strip'
+cookies: {"AspxAutoDetectCookieSupport": "1"}
+data: {"SearchRequest": "true", ZipListValue: "1000,1030,1040,1050,1060,1070,1080,1081,1082,1083,1090,1140,1150,1160,1170,1180,1190,1200,1210", CategoryID: "1", Price: "225000,290000", X-Requested-With: "XMLHttpRequest"}
+---
+kind: url
+name: AdHocImmo
+url: http://www.adhocimmo.be/index.php?action=list&ctypmandatmeta=v&reference=&categories%5B%5D=Maison&chambre_min=&prix_max=290000
+filter: 'element-by-id:portfolio-wrapper,html2text:lynx,strip'

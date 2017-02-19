@@ -167,5 +167,33 @@ cookies: {AspxAutoDetectCookieSupport='1'}
 ---
 kind: url
 name: Zimmo
-url: http://www.zimmo.be/fr/biens/?status=1&type%5B0%5D=5&priceMin=225000&priceMax=290000&priceIncludeUnknown=0&priceChangedOnly=0&bedroomsIncludeUnknown=1&bathroomsIncludeUnknown=1&constructionIncludeUnknown=1&livingAreaIncludeUnknown=1&landAreaIncludeUnknown=1&commercialAreaIncludeUnknown=1&yearOfConstructionIncludeUnknown=1&epcIncludeUnknown=1&queryCondition=and&includeNoPhotos=0&includeNoAddress=0&onlyRecent=1&onlyRecentlyUpdated=1&isPlus=0&region=list&district=MwQA&sort=recent&sort_order=desc#gallery
+url: http://www.zimmo.be/fr/biens/?status=1&type%5B0%5D=5&priceMin=225000&priceMax=290000&priceIncludeUnknown=0&priceChangedOnly=0&bedroomsIncludeUnknown=1&bathroomsIncludeUnknown=1&constructionIncludeUnknown=1&livingAreaIncludeUnknown=1&landAreaIncludeUnknown=1&commercialAreaIncludeUnknown=1&yearOfConstructionIncludeUnknown=1&epcIncludeUnknown=1&queryCondition=and&includeNoPhotos=0&includeNoAddress=0&onlyRecent=1&onlyRecentlyUpdated=1&region=list&district=MwQA&sort=recent&sort_order=DESC
 filter: element-by-class:item  ,html2text:lynx,strip
+---
+kind: url
+name: newgate
+url: http://www.newgateinvest.be/achat/recherche.php
+filter: 'element-by-style:border:2px solid #292929;,html2text:lynx,strip'
+data: {min_prix: '225000', max_prix: '290000', venloca: '1', logement: '24'}
+---
+kind: url
+name: ImmoFm
+url: http://www.immofm.be/index.php?action=list&ctypmandatmeta=v&reference=&categories%5B%5D=Maison&chambre_min=&prix_min=225000&prix_max=290000
+filter: 'element-by-id:portfolio-wrapper,html2text:lynx,strip'
+---
+kind: url
+name: immorealjk
+url: http://immorealjk.com/Web.mvc/fr-be/List1?pageNumber=0&isAjaxRequest=True
+data: {"SearchRequest":"true", "CategoryID":"1", "Price":"225000,290000", "X-Requested-With":"XMLHttpRequest"}
+filter: 'element-by-id:listItemContainer,html2text:lynx,strip'
+cookies : {"AspxAutoDetectCookieSupport": "1"}
+---
+kind: url
+name: VieImmo
+url: http://www.vie-immo.be/index.php?action=list&ctypmandatmeta=v&reference=&categories%5B%5D=Maison&chambre_min=&prix_max=290000&prix_min=225000
+filter: 'element-by-class:four columns portfolio-item,html2text:lynx,strip'
+---
+kind: url
+name: BHImmo
+url: http://www.bhnimmo.com/fr/a-vendre?view=list&page=1&ptype=1&pricemin=225000&pricemax=290000&minroom=0&maxroom=6&goal=0
+filter: 'element-by-class:span2 property,html2text:lynx,strip'

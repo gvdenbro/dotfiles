@@ -1,6 +1,5 @@
 kind: url
-name: LaRockImmo
-url: http://www.larockimmo.be/en-GB/List/16?SelectedCities=1000,1030,1040,1050,1060,1070,1080,1081,1082,1083,1090,1140,1150,1160,1170,1180,1190,1200,1210
-filter: 'element-by-class:estate-thumb,html2text:lynx,strip'
-cookies: {"__RequestVerificationToken": "KZKQBXv0tc573QBoj7sgUjjVvVr4JCPTk6uIZ9ut-TgoGdRuVFIcuPlkxhaZIbmi6vJeIj2Eil7U0GbUff2_KICljfMIdW4-iaGIYmyDL681", "_culture": "en-GB"}
-data: {"ListID": "16", "SearchType": "ToSell", "SelectedType": "1", "MinPrice": "225000", "MaxPrice": "290000", "__RequestVerificationToken": "NbVgLhpunZeoQQLbb2GsruyikGwey3SBNyL8JUd8zJGydBebhJkFbE6dUBbi42a08n1GialpuIlDCMxtQuM0FIdgo1wXv8lRYPeva6tC9uA1"}
+name: Trior
+url: http://www.trior.be/Biens-immobiliers/Recherche/A-vendre
+filter: 'element-by-class:contour,html2text:lynx,strip'
+data: {"type": "1", "tabzip": "1000/1030/1040/1050/1060/1070/1080/1081/1082/1083/1090/1140/1150/1160/1170/1180/1190/1200/1210/", "prixMin": "225000", "prixMax":"290000"}

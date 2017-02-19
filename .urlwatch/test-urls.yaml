@@ -1,4 +1,4 @@
 kind: url
-name: BHImmo
-url: http://www.bhnimmo.com/fr/a-vendre?view=list&page=1&ptype=1&pricemin=225000&pricemax=290000&minroom=0&maxroom=6&goal=0
-filter: 'element-by-class:span2 property,html2text:lynx,strip'
+name: ImmoCis
+url: http://www.immocis.be/en/sales?view=list&page=1&ptype=1&pricemin=225000&pricemax=290000&sort=price
+filter: 'element-by-class:property-list,html2text:lynx,strip'

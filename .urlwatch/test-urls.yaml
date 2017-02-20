@@ -1,4 +1,4 @@
 kind: url
-name: AdHocImmo
-url: http://www.adhocimmo.be/index.php?action=list&ctypmandatmeta=v&reference=&categories%5B%5D=Maison&chambre_min=&prix_max=290000
-filter: 'element-by-id:portfolio-wrapper,html2text:lynx,strip'
+name: BrusselsRealEstate
+url: http://www.brusselsrealestate.eu/fr/a-vendre?view=list&page=1&ptype=1&pricemin=225000&pricemax=300000&goal=0
+filter: 'element-by-class:property-list,html2text:lynx,strip'

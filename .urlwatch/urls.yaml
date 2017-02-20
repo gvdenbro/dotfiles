@@ -1,26 +1,26 @@
 kind: url
 name: ImmoOne
-url: http://www.immo-one.eu/fr/a-vendre?view=list&page=1&ptype=1&pricemin=225000&pricemax=290000
+url: http://www.immo-one.eu/fr/a-vendre?view=list&page=1&ptype=1&pricemin=225000&pricemax=300000
 filter: element-by-class:property-info,html2text:lynx,strip
 ---
 kind: url
 name: EspaceImmo
-url: http://www.espaceimmobrussels.be/a-vendre/Type-01%7CMaison/Prix-200000%7C290000/NbChambres-3
+url: http://www.espaceimmobrussels.be/a-vendre/Type-01%7CMaison/Prix-200000%7C300000/NbChambres-3
 filter: element-by-class:cp-bien--content,html2text:lynx,strip
 ---
 kind: url
 name: SybImmo
-url: http://www.sybimmo.be/nl/te-koop/woningen/?type=5&city=Schaarbeek%2CSint-Agatha-Berchem%2CSint-Gillis%2CSint-Jans-Molenbeek&price-range=200000+-+290000
+url: http://www.sybimmo.be/nl/te-koop/woningen/?type=5&city=Schaarbeek%2CSint-Agatha-Berchem%2CSint-Gillis%2CSint-Jans-Molenbeek&price-range=200000+-+300000
 filter: element-by-class:imgExt,html2text:lynx,strip
 ---
 kind: url
 name: MacNash
-url: http://www.macnash.com/ui/propertyitems.aspx?ZPTID=3&TT=0&PMax=290000&RMin=3&Search=1000,1030,1040,1050,1060,1070,1080,1081,1082,1083,1090,1140,1150,1160,1170,1180,1190,1200,1210
+url: http://www.macnash.com/ui/propertyitems.aspx?ZPTID=3&TT=0&PMax=300000&RMin=3&Search=1000,1030,1040,1050,1060,1070,1080,1081,1082,1083,1090,1140,1150,1160,1170,1180,1190,1200,1210
 filter: element-by-class:caption,html2text:lynx,strip
 ---
 kind: url
 name: Trevi
-url: http://www.trevi.be/fr/residentiel/recherche?goal=0&web_id=1&geo=7148&price_from=225000&price_to=290000&bed=3&page=1
+url: http://www.trevi.be/fr/residentiel/recherche?goal=0&web_id=1&geo=7148&price_from=225000&price_to=300000&bed=3&page=1
 filter: element-by-class:result-estate-content,html2text:lynx,strip
 ---
 kind: url
@@ -30,111 +30,111 @@ filter: element-by-class:group-main,html2text:lynx,strip
 ---
 kind: url
 name: DirectImmo
-url: http://www.direct-immo.be/fr/a-vendre?view=list&page=1&ptype=1&pricemin=225000&pricemax=290000
+url: http://www.direct-immo.be/fr/a-vendre?view=list&page=1&ptype=1&pricemin=225000&pricemax=300000
 filter: element-by-class:property-info,html2text:lynx,strip
 ---
 kind: url
 name: ImmoGrootLeeuw
-url: http://www.immogrootleeuw.be/fr/a-vendre/?type=5&city=Anderlecht%2CGroot-Bijgaarden%2CJette&price-range=200000+-+290000
+url: http://www.immogrootleeuw.be/fr/a-vendre/?type=5&city=Anderlecht%2CGroot-Bijgaarden%2CJette&price-range=200000+-+300000
 filter: element-by-class:imgExt,html2text:lynx,strip
 ---
 kind: url
 name: Panasi
-url: http://www.panasi.be/fr/a-vendre/maisons?view=list&page=1&ptype=1&pricemin=225000&pricemax=290000
+url: http://www.panasi.be/fr/a-vendre/maisons?view=list&page=1&ptype=1&pricemin=225000&pricemax=300000
 filter: element-by-class:desc,html2text:lynx,strip
 ---
 kind: url
 name: NewTendances
-url: http://www.newtendances.be/index.php?action=list&ctypmandatmeta=v&reference=&categories%5B%5D=Maison&chambre_min=3&villes%5B%5D=Brussel+21&villes%5B%5D=Bruxelles++1&villes%5B%5D=Bruxelles++2&villes%5B%5D=Evere&villes%5B%5D=Forest&villes%5B%5D=Ixelles&villes%5B%5D=Koekelberg&villes%5B%5D=Molenbeek-Saint-Jean&villes%5B%5D=Saint+Josse&villes%5B%5D=Saint-Gilles&villes%5B%5D=Schaerbeek&villes%5B%5D=Watermael-Boitsfort&villes%5B%5D=Woluw%C3%A9-Saint-Pierre&prix_max=290000
+url: http://www.newtendances.be/index.php?action=list&ctypmandatmeta=v&reference=&categories%5B%5D=Maison&chambre_min=3&villes%5B%5D=Brussel+21&villes%5B%5D=Bruxelles++1&villes%5B%5D=Bruxelles++2&villes%5B%5D=Evere&villes%5B%5D=Forest&villes%5B%5D=Ixelles&villes%5B%5D=Koekelberg&villes%5B%5D=Molenbeek-Saint-Jean&villes%5B%5D=Saint+Josse&villes%5B%5D=Saint-Gilles&villes%5B%5D=Schaerbeek&villes%5B%5D=Watermael-Boitsfort&villes%5B%5D=Woluw%C3%A9-Saint-Pierre&prix_max=300000
 filter: element-by-class:item-description alt,html2text:lynx,strip
 ---
 kind: url
 name: Century21
-url: http://www.century21.be/en/house/for-sale/belgium/brussels/-0km/250000-290000/3_bedrooms/
+url: http://www.century21.be/en/house/for-sale/belgium/brussels/-0km/250000-300000/3_bedrooms/
 filter: element-by-class:about,html2text:lynx,strip
 ---
 kind: url
 name: Brikman
-url: http://www.brikman.be/Web.mvc/fr-be/List1?SearchRequest=true&PurposeID=0&Reference=&EstateName=&InvestmentEstate=false&CategoryID=0&Furnished=false&PriceFrom=225000&PriceTo=290000&Rooms=0&RegionID=0&ZipListValue=&OrderBy=&X-Requested-With=XMLHttpRequest&AspxAutoDetectCookieSupport=1&pageNumber=0
+url: http://www.brikman.be/Web.mvc/fr-be/List1?SearchRequest=true&PurposeID=0&Reference=&EstateName=&InvestmentEstate=false&CategoryID=0&Furnished=false&PriceFrom=225000&PriceTo=300000&Rooms=0&RegionID=0&ZipListValue=&OrderBy=&X-Requested-With=XMLHttpRequest&AspxAutoDetectCookieSupport=1&pageNumber=0
 filter: element-by-class:list-mosaic-caption,html2text:lynx,strip
 cookies: {AspxAutoDetectCookieSupport='1'}
 ---
 kind: url
 name: 5thCorner
-url: http://www.5thcorner.brussels/Web.mvc/en-gb/List1?SearchRequest=true&PurposeID=0&InvestmentEstate=false&CategoryID=0&PriceFrom=225000&PriceTo=290000&OrderBy=&X-Requested-With=XMLHttpRequest&AspxAutoDetectCookieSupport=1&pageNumber=0
+url: http://www.5thcorner.brussels/Web.mvc/en-gb/List1?SearchRequest=true&PurposeID=0&InvestmentEstate=false&CategoryID=0&PriceFrom=225000&PriceTo=300000&OrderBy=&X-Requested-With=XMLHttpRequest&AspxAutoDetectCookieSupport=1&pageNumber=0
 filter: element-by-class:list-mosaic-caption,html2text:lynx,strip
 cookies: {AspxAutoDetectCookieSupport='1'}
 ---
 kind: url
 name: Pajota
-url: https://www.pajota.be/nl/te-koop/woningen/3-kamers/min-230000-euro/max-290000-euro/zip-1000-1030-1040-1050-1060-1070-1080-1081-1082-1083-1090-1140-1150-1160-1170-1180-1190-1200-1210/
+url: https://www.pajota.be/nl/te-koop/woningen/3-kamers/min-230000-euro/max-300000-euro/zip-1000-1030-1040-1050-1060-1070-1080-1081-1082-1083-1090-1140-1150-1160-1170-1180-1190-1200-1210/
 filter: element-by-class:marks,html2text:lynx,strip
 ---
 kind: url
 name: CapSud1
-url: http://www.cap-sud.com/fr/searchestate?option=com_estatelist&purposesearch=1&categorysearch=house&budgetfromsearch=225000&budgettosearch=290000&countrysearch=1&zip1search=1000&zip2search=1030&zip3search=1040&zip4search=1050&code_postaux=9980&code_postal_auto=
+url: http://www.cap-sud.com/fr/searchestate?option=com_estatelist&purposesearch=1&categorysearch=house&budgetfromsearch=225000&budgettosearch=300000&countrysearch=1&zip1search=1000&zip2search=1030&zip3search=1040&zip4search=1050&code_postaux=9980&code_postal_auto=
 filter: element-by-class:article result,html2text:lynx,strip
 ---
 kind: url
 name: CapSud2
-url: http://www.cap-sud.com/fr/searchestate?option=com_estatelist&purposesearch=1&categorysearch=house&budgetfromsearch=225000&budgettosearch=290000&countrysearch=1&zip1search=1060&zip2search=1070&zip3search=1080&zip4search=1081&code_postaux=9980&code_postal_auto=
+url: http://www.cap-sud.com/fr/searchestate?option=com_estatelist&purposesearch=1&categorysearch=house&budgetfromsearch=225000&budgettosearch=300000&countrysearch=1&zip1search=1060&zip2search=1070&zip3search=1080&zip4search=1081&code_postaux=9980&code_postal_auto=
 filter: element-by-class:article result,html2text:lynx,strip
 ---
 kind: url
 name: CapSud3
-url: http://www.cap-sud.com/fr/searchestate?option=com_estatelist&purposesearch=1&categorysearch=house&budgetfromsearch=225000&budgettosearch=290000&countrysearch=1&zip1search=1082&zip2search=1083&zip3search=1090&zip4search=1140&code_postaux=9980&code_postal_auto=
+url: http://www.cap-sud.com/fr/searchestate?option=com_estatelist&purposesearch=1&categorysearch=house&budgetfromsearch=225000&budgettosearch=300000&countrysearch=1&zip1search=1082&zip2search=1083&zip3search=1090&zip4search=1140&code_postaux=9980&code_postal_auto=
 filter: element-by-class:article result,html2text:lynx,strip
 ---
 kind: url
 name: CapSud4
-url: http://www.cap-sud.com/fr/searchestate?option=com_estatelist&purposesearch=1&categorysearch=house&budgetfromsearch=225000&budgettosearch=290000&countrysearch=1&zip1search=1150&zip2search=1160&zip3search=1170&zip4search=1180&code_postaux=9980&code_postal_auto=
+url: http://www.cap-sud.com/fr/searchestate?option=com_estatelist&purposesearch=1&categorysearch=house&budgetfromsearch=225000&budgettosearch=300000&countrysearch=1&zip1search=1150&zip2search=1160&zip3search=1170&zip4search=1180&code_postaux=9980&code_postal_auto=
 filter: element-by-class:article result,html2text:lynx,strip
 ---
 kind: url
 name: CapSud5
-url: http://www.cap-sud.com/fr/searchestate?option=com_estatelist&purposesearch=1&categorysearch=house&budgetfromsearch=225000&budgettosearch=290000&countrysearch=1&zip1search=1190&zip2search=1200&zip3search=1210&zip4search=&code_postaux=9980&code_postal_auto=
+url: http://www.cap-sud.com/fr/searchestate?option=com_estatelist&purposesearch=1&categorysearch=house&budgetfromsearch=225000&budgettosearch=300000&countrysearch=1&zip1search=1190&zip2search=1200&zip3search=1210&zip4search=&code_postaux=9980&code_postal_auto=
 filter: element-by-class:article result,html2text:lynx,strip
 ---
 kind: url
 name: Noa
-url: http://www.noa-realestate.be/Web.mvc/fr-be/List1?SearchRequest=true&PurposeID=0&InvestmentEstate=false&CategoryID=1&PriceFrom=225000&PriceTo=290000&OrderBy=&X-Requested-With=XMLHttpRequest&AspxAutoDetectCookieSupport=1&pageNumber=0
+url: http://www.noa-realestate.be/Web.mvc/fr-be/List1?SearchRequest=true&PurposeID=0&InvestmentEstate=false&CategoryID=1&PriceFrom=225000&PriceTo=300000&OrderBy=&X-Requested-With=XMLHttpRequest&AspxAutoDetectCookieSupport=1&pageNumber=0
 filter: element-by-class:list-mosaic-caption,html2text:lynx,strip
 cookies: {AspxAutoDetectCookieSupport='1'}
 ---
 kind: url
 name: EventImmo
-url: http://www.eventimmo.be/fr/biens-immobiliers-avendre?field_imob_statuslist_value=All&field_imob_type_value_i18n%5B%5D=1&field_imob_chambre_value=3&field_imob_prix_value%5Bmin%5D=225000&field_imob_prix_value%5Bmax%5D=290000&cp_ville=&sort_by=field_imob_prix_value&sort_order=ASC&view_name=biens_immobiliers&view_display_id=page&view_args=&view_path=biens-immobiliers-avendre&view_base_path=biens-immobiliers-avendre
+url: http://www.eventimmo.be/fr/biens-immobiliers-avendre?field_imob_statuslist_value=All&field_imob_type_value_i18n%5B%5D=1&field_imob_chambre_value=3&field_imob_prix_value%5Bmin%5D=225000&field_imob_prix_value%5Bmax%5D=300000&cp_ville=&sort_by=field_imob_prix_value&sort_order=ASC&view_name=biens_immobiliers&view_display_id=page&view_args=&view_path=biens-immobiliers-avendre&view_base_path=biens-immobiliers-avendre
 filter: element-by-class:views-field views-field-title,html2text:re,strip
 ---
 kind: url
 name: ImmoCC
-url: http://www.immoicc.be/index.php?ETTW_Lang=FR&pg=liste&OxySeleOffr=V&OxySeleImme=01|Maison&OxySelePrix=225000%7C290000&sspg=loca
+url: http://www.immoicc.be/index.php?ETTW_Lang=FR&pg=liste&OxySeleOffr=V&OxySeleImme=01|Maison&OxySelePrix=225000%7C300000&sspg=loca
 filter: "element-by-style:display:block; cursor: pointer; position:relative,html2text:lynx,strip"
 ---
 kind: url
 name: UrbanConcept
-url: http://www.urban-concept.be/Web.mvc/fr-be/List1?SearchRequest=true&PurposeID=0&Reference=&EstateName=&InvestmentEstate=false&CategoryID=1&Furnished=false&PriceFrom=225000&PriceTo=290000&Rooms=0&RegionID=19584&ZipListValue=&OrderBy=Price%2CDESC&X-Requested-With=XMLHttpRequest
+url: http://www.urban-concept.be/Web.mvc/fr-be/List1?SearchRequest=true&PurposeID=0&Reference=&EstateName=&InvestmentEstate=false&CategoryID=1&Furnished=false&PriceFrom=225000&PriceTo=300000&Rooms=0&RegionID=19584&ZipListValue=&OrderBy=Price%2CDESC&X-Requested-With=XMLHttpRequest
 filter: element-by-class:list-mosaic-caption,html2text:lynx,strip
 cookies: {AspxAutoDetectCookieSupport='1'}
 ---
 kind: url
 name: ImmoFilo
-url: http://www.immofilo.be/index.php?page=liste&OxySeleOffr=V&OxySeleImme=01|Maison&OxySelePrix=225000%7C290000&OxySeleGeog=01|BRUXELLES%2019%20COMMUNES%20&%20EXTENSIONS&OxySeleOrdre=PRIX%20ASC,COMM%20ASC,CODE
+url: http://www.immofilo.be/index.php?page=liste&OxySeleOffr=V&OxySeleImme=01|Maison&OxySelePrix=225000%7C300000&OxySeleGeog=01|BRUXELLES%2019%20COMMUNES%20&%20EXTENSIONS&OxySeleOrdre=PRIX%20ASC,COMM%20ASC,CODE
 filter: "element-by-style:display:block; cursor: pointer; position:relative,html2text:lynx,strip"
 ---
 kind: url
 name: MetroP
-url: http://www.metrop.be/index.php?page=liste&OxySeleOffr=V&OxySeleImme=01|Maison&OxySelePrix=225000%7C290000&view=&OxySeleOrdre=PRIX%20ASC,COMM%20ASC,CODE
+url: http://www.metrop.be/index.php?page=liste&OxySeleOffr=V&OxySeleImme=01|Maison&OxySelePrix=225000%7C300000&view=&OxySeleOrdre=PRIX%20ASC,COMM%20ASC,CODE
 filter: "element-by-style:display:block; cursor: pointer; position:relative,html2text:lynx,strip"
 ---
 kind: url
 name: ahre
-url: http://www.ahre.be/index.php?page=liste&OxySeleOffr=V&OxySeleImme=01|Maison&OxySelePrix=225000%7C290000&view=&OxySeleOrdre=PRIX%20ASC,COMM%20ASC,CODE
+url: http://www.ahre.be/index.php?page=liste&OxySeleOffr=V&OxySeleImme=01|Maison&OxySelePrix=225000%7C300000&view=&OxySeleOrdre=PRIX%20ASC,COMM%20ASC,CODE
 filter: "element-by-style:display:block; cursor: no-drop; position:relative,html2text:lynx,strip"
 ---
 kind: url
 name: AbriEurope
-url: http://www.abri-europe.be/SNWebBuilder.php?page=/common/search/large,action=[products];type;sell:[products];pricefrom;225000:[products];priceto;290000:[products];matchinggroup;2475886:[products];regionid;2475888:[products];country;all,rememberpage=no,state=
+url: http://www.abri-europe.be/SNWebBuilder.php?page=/common/search/large,action=[products];type;sell:[products];pricefrom;225000:[products];priceto;300000:[products];matchinggroup;2475886:[products];regionid;2475888:[products];country;all,rememberpage=no,state=
 filter: element-by-class:vignette,html2text:lynx,strip
 ---
 kind: url
@@ -144,7 +144,7 @@ filter: element-by-class:imgExt,html2text:lynx,strip
 ---
 kind: url
 name: Trianon
-url: http://www.trianon-invest.be/Web.mvc/fr-be/List4?SearchRequest=true&PurposeID=0&Reference=&EstateName=&InvestmentEstate=false&CategoryID=1&Furnished=false&PriceFrom=225000&PriceTo=290000&Rooms=0&RegionID=11923&ZipListValue=&OrderBy=Price%2CDESC&X-Requested-With=XMLHttpRequest
+url: http://www.trianon-invest.be/Web.mvc/fr-be/List4?SearchRequest=true&PurposeID=0&Reference=&EstateName=&InvestmentEstate=false&CategoryID=1&Furnished=false&PriceFrom=225000&PriceTo=300000&Rooms=0&RegionID=11923&ZipListValue=&OrderBy=Price%2CDESC&X-Requested-With=XMLHttpRequest
 filter: element-by-class:list-mosaic-caption,html2text:lynx,strip
 cookies: {AspxAutoDetectCookieSupport='1'}
 ---
@@ -161,7 +161,7 @@ data:
   SearchRequest: 'true'
   RegionID: '0'
   PriceFrom: '225000'
-  PriceTo: '290000'
+  PriceTo: '300000'
   Rooms: '0'
   CategoryID: '1'
 cookies:
@@ -170,51 +170,51 @@ filter: element-by-class:list-mosaic-caption,html2text:lynx,strip
 ---
 kind: url
 name: ImmoCenta
-url: http://www.immoaccenta.be/nl/te-koop/woningen/postcode-1000,1030,1040,1050,1060,1070,1080,1081,1082,1083,1090,1140,1150,1160,1170,1180,1190,1200,1210/max-290000-euro
+url: http://www.immoaccenta.be/nl/te-koop/woningen/postcode-1000,1030,1040,1050,1060,1070,1080,1081,1082,1083,1090,1140,1150,1160,1170,1180,1190,1200,1210/max-300000-euro
 filter: element-by-class:seven columns details,html2text:lynx,strip
 ---
 kind: url
 name: Alphabitat
-url: http://www.alphabitat.be/Web.mvc/fr-be/List3?SearchRequest=true&Purpose1=on&PurposeID=1&Reference=&EstateName=&InvestmentEstate=false&CategoryID=1&Furnished=false&PriceFrom=225000&PriceTo=290000&Rooms=0&RegionID=20341&ZipListValue=&OrderBy=Price%2CDESC
+url: http://www.alphabitat.be/Web.mvc/fr-be/List3?SearchRequest=true&Purpose1=on&PurposeID=1&Reference=&EstateName=&InvestmentEstate=false&CategoryID=1&Furnished=false&PriceFrom=225000&PriceTo=300000&Rooms=0&RegionID=20341&ZipListValue=&OrderBy=Price%2CDESC
 filter: element-by-class:list-mosaic-caption,html2text:lynx,strip
 cookies: {AspxAutoDetectCookieSupport='1'}
 ---
 kind: url
 name: Zimmo
-url: http://www.zimmo.be/fr/biens/?status=1&type%5B0%5D=5&priceMin=225000&priceMax=290000&priceIncludeUnknown=0&priceChangedOnly=0&bedroomsIncludeUnknown=1&bathroomsIncludeUnknown=1&constructionIncludeUnknown=1&livingAreaIncludeUnknown=1&landAreaIncludeUnknown=1&commercialAreaIncludeUnknown=1&yearOfConstructionIncludeUnknown=1&epcIncludeUnknown=1&queryCondition=and&includeNoPhotos=0&includeNoAddress=0&onlyRecent=1&onlyRecentlyUpdated=1&region=list&district=MwQA&sort=recent&sort_order=DESC
+url: http://www.zimmo.be/fr/biens/?status=1&type%5B0%5D=5&priceMin=225000&priceMax=300000&priceIncludeUnknown=0&priceChangedOnly=0&bedroomsIncludeUnknown=1&bathroomsIncludeUnknown=1&constructionIncludeUnknown=1&livingAreaIncludeUnknown=1&landAreaIncludeUnknown=1&commercialAreaIncludeUnknown=1&yearOfConstructionIncludeUnknown=1&epcIncludeUnknown=1&queryCondition=and&includeNoPhotos=0&includeNoAddress=0&onlyRecent=1&onlyRecentlyUpdated=1&region=list&district=MwQA&sort=recent&sort_order=DESC
 filter: element-by-class:item  ,html2text:lynx,strip
 ---
 kind: url
 name: newgate
 url: http://www.newgateinvest.be/achat/recherche.php
 filter: 'element-by-style:border:2px solid #292929;,html2text:lynx,strip'
-data: {min_prix: '225000', max_prix: '290000', venloca: '1', logement: '24'}
+data: {min_prix: '225000', max_prix: '300000', venloca: '1', logement: '24'}
 ---
 kind: url
 name: ImmoFm
-url: http://www.immofm.be/index.php?action=list&ctypmandatmeta=v&reference=&categories%5B%5D=Maison&chambre_min=&prix_min=225000&prix_max=290000
+url: http://www.immofm.be/index.php?action=list&ctypmandatmeta=v&reference=&categories%5B%5D=Maison&chambre_min=&prix_min=225000&prix_max=300000
 filter: 'element-by-id:portfolio-wrapper,html2text:lynx,strip'
 ---
 kind: url
 name: immorealjk
 url: http://immorealjk.com/Web.mvc/fr-be/List1?pageNumber=0&isAjaxRequest=True
-data: {"SearchRequest":"true", "CategoryID":"1", "Price":"225000,290000", "X-Requested-With":"XMLHttpRequest"}
+data: {"SearchRequest":"true", "CategoryID":"1", "Price":"225000,300000", "X-Requested-With":"XMLHttpRequest"}
 filter: 'element-by-id:listItemContainer,html2text:lynx,strip'
 cookies : {"AspxAutoDetectCookieSupport": "1"}
 ---
 kind: url
 name: VieImmo
-url: http://www.vie-immo.be/index.php?action=list&ctypmandatmeta=v&reference=&categories%5B%5D=Maison&chambre_min=&prix_max=290000&prix_min=225000
+url: http://www.vie-immo.be/index.php?action=list&ctypmandatmeta=v&reference=&categories%5B%5D=Maison&chambre_min=&prix_max=300000&prix_min=225000
 filter: 'element-by-class:four columns portfolio-item,html2text:lynx,strip'
 ---
 kind: url
 name: BHImmo
-url: http://www.bhnimmo.com/fr/a-vendre?view=list&page=1&ptype=1&pricemin=225000&pricemax=290000&minroom=0&maxroom=6&goal=0
+url: http://www.bhnimmo.com/fr/a-vendre?view=list&page=1&ptype=1&pricemin=225000&pricemax=300000&minroom=0&maxroom=6&goal=0
 filter: 'element-by-class:span2 property,html2text:lynx,strip'
 ---
 kind: url
 name: ImmoCis
-url: http://www.immocis.be/en/sales?view=list&page=1&ptype=1&pricemin=225000&pricemax=290000&sort=price
+url: http://www.immocis.be/en/sales?view=list&page=1&ptype=1&pricemin=225000&pricemax=300000&sort=price
 filter: 'element-by-class:property-list,html2text:lynx,strip'
 ---
 kind: url
@@ -222,17 +222,17 @@ name: LaRockImmo
 url: http://www.larockimmo.be/en-GB/List/16?SelectedCities=1000,1030,1040,1050,1060,1070,1080,1081,1082,1083,1090,1140,1150,1160,1170,1180,1190,1200,1210
 filter: 'element-by-class:estate-thumb,html2text:lynx,strip'
 cookies: {"__RequestVerificationToken": "KZKQBXv0tc573QBoj7sgUjjVvVr4JCPTk6uIZ9ut-TgoGdRuVFIcuPlkxhaZIbmi6vJeIj2Eil7U0GbUff2_KICljfMIdW4-iaGIYmyDL681", "_culture": "en-GB"}
-data: {"ListID": "16", "SearchType": "ToSell", "SelectedType": "1", "MinPrice": "225000", "MaxPrice": "290000", "__RequestVerificationToken": "NbVgLhpunZeoQQLbb2GsruyikGwey3SBNyL8JUd8zJGydBebhJkFbE6dUBbi42a08n1GialpuIlDCMxtQuM0FIdgo1wXv8lRYPeva6tC9uA1"}
+data: {"ListID": "16", "SearchType": "ToSell", "SelectedType": "1", "MinPrice": "225000", "MaxPrice": "300000", "__RequestVerificationToken": "NbVgLhpunZeoQQLbb2GsruyikGwey3SBNyL8JUd8zJGydBebhJkFbE6dUBbi42a08n1GialpuIlDCMxtQuM0FIdgo1wXv8lRYPeva6tC9uA1"}
 ---
 kind: url
 name: Trior
 url: http://www.trior.be/Biens-immobiliers/Recherche/A-vendre
 filter: 'element-by-class:contour,html2text:lynx,strip'
-data: {"type": "1", "tabzip": "1000/1030/1040/1050/1060/1070/1080/1081/1082/1083/1090/1140/1150/1160/1170/1180/1190/1200/1210/", "prixMin": "225000", "prixMax":"290000"}
+data: {"type": "1", "tabzip": "1000/1030/1040/1050/1060/1070/1080/1081/1082/1083/1090/1140/1150/1160/1170/1180/1190/1200/1210/", "prixMin": "225000", "prixMax":"300000"}
 ---
 kind: url
 name: JetImmo
-url: http://www.jetimmo.eu/fr/vente.php?OxySeleOffr=V&OxySeleImme=01&lang=FR&OxySelePrix=225000%7C290000
+url: http://www.jetimmo.eu/fr/vente.php?OxySeleOffr=V&OxySeleImme=01&lang=FR&OxySelePrix=225000%7C300000
 filter: 'element-by-class:ventept,html2text:lynx,strip'
 ---
 kind: url
@@ -240,25 +240,25 @@ name: EuroHouse
 url: http://www.eurohouse.be/Web.mvc/fr-be/List1?pageNumber=0&isAjaxRequest=True
 filter: 'element-by-id:listItemContainer,html2text:lynx,strip'
 cookies: {"AspxAutoDetectCookieSupport": "1"}
-data: {"SearchRequest": "true", ZipListValue: "1000,1030,1040,1050,1060,1070,1080,1081,1082,1083,1090,1140,1150,1160,1170,1180,1190,1200,1210", CategoryID: "1", Price: "225000,290000", X-Requested-With: "XMLHttpRequest"}
+data: {"SearchRequest": "true", ZipListValue: "1000,1030,1040,1050,1060,1070,1080,1081,1082,1083,1090,1140,1150,1160,1170,1180,1190,1200,1210", CategoryID: "1", Price: "225000,300000", X-Requested-With: "XMLHttpRequest"}
 ---
 kind: url
 name: ImmoBolle
 url: http://www.immobolle.be/en-GB?SelectedCities=1000,1030,1040,1050,1060,1070,1080,1081,1082,1083,1090,1140,1150,1160,1170,1180,1190,1200,1210
 filter: 'element-by-class:estate-thumb,html2text:lynx,strip'
 cookies: {"__RequestVerificationToken": "Yq87PnEC76ZS4Sp-k2gQn9WPYtq8H-krNScNizYU8PpJpN2b3ZSG3cozQIUxicbWx_LqjoIbOaSiD6Hp6jQuLckA-aZ2XhLHn8Lv64yOUD01", "_culture": "en-GB"}
-data: {"ListID": "16", "SearchTypeRent": "False", "SearchTypeSell": "True", "SelectedType": "1", "MinPrice": "225000", "MaxPrice": "290000", "__RequestVerificationToken": "jHr1nm92Ge7-CSIBP4DF-W9je-LAeJ6RvbOWK1f5TapGdNF0TFFq8Sr1mcvSjoFT5W0OiMUdek0D9yUg3OGOzooP015W5_7rlP9wBAtP9aA1"}
+data: {"ListID": "16", "SearchTypeRent": "False", "SearchTypeSell": "True", "SelectedType": "1", "MinPrice": "225000", "MaxPrice": "300000", "__RequestVerificationToken": "jHr1nm92Ge7-CSIBP4DF-W9je-LAeJ6RvbOWK1f5TapGdNF0TFFq8Sr1mcvSjoFT5W0OiMUdek0D9yUg3OGOzooP015W5_7rlP9wBAtP9aA1"}
 ---
 kind: url
 name: Chrysalide
 url: http://www.immochrysalide.be/Web.mvc/fr-be/List3
 filter: 'element-by-id:listItemContainer,html2text:lynx,strip'
 cookies: {"AspxAutoDetectCookieSupport": "1"}
-data: {"SearchRequest": "true", ZipListValue: "1000,1030,1040,1050,1060,1070,1080,1081,1082,1083,1090,1140,1150,1160,1170,1180,1190,1200,1210", CategoryID: "1", Price: "225000,290000", X-Requested-With: "XMLHttpRequest"}
+data: {"SearchRequest": "true", ZipListValue: "1000,1030,1040,1050,1060,1070,1080,1081,1082,1083,1090,1140,1150,1160,1170,1180,1190,1200,1210", CategoryID: "1", Price: "225000,300000", X-Requested-With: "XMLHttpRequest"}
 ---
 kind: url
 name: AdHocImmo
-url: http://www.adhocimmo.be/index.php?action=list&ctypmandatmeta=v&reference=&categories%5B%5D=Maison&chambre_min=&prix_max=290000
+url: http://www.adhocimmo.be/index.php?action=list&ctypmandatmeta=v&reference=&categories%5B%5D=Maison&chambre_min=&prix_max=300000
 filter: 'element-by-id:portfolio-wrapper,html2text:lynx,strip'
 ---
 kind: url
@@ -266,11 +266,11 @@ name: Archimede
 url: http://www.archimede-realestate.be/Web.mvc/fr-be/List1?pageNumber=0&isAjaxRequest=True
 filter: 'element-by-id:listItemContainer,html2text:lynx,strip'
 cookies: {"AspxAutoDetectCookieSupport": "1"}
-data: {"SearchRequest": "true", ZipListValue: "1000,1030,1040,1050,1060,1070,1080,1081,1082,1083,1090,1140,1150,1160,1170,1180,1190,1200,1210", CategoryID: "1", Price: "225000,290000", X-Requested-With: "XMLHttpRequest"}
+data: {"SearchRequest": "true", ZipListValue: "1000,1030,1040,1050,1060,1070,1080,1081,1082,1083,1090,1140,1150,1160,1170,1180,1190,1200,1210", CategoryID: "1", Price: "225000,300000", X-Requested-With: "XMLHttpRequest"}
 ---
 kind: url
 name: otimmosablon
-url: http://www.otimmosablon.be/index.php?action=list&ctypmandatmeta=v&reference=&categories%5B%5D=Maison&chambre_min=&prix_max=290000
+url: http://www.otimmosablon.be/index.php?action=list&ctypmandatmeta=v&reference=&categories%5B%5D=Maison&chambre_min=&prix_max=300000
 filter: 'element-by-class:four columns portfolio-item,html2text:lynx,strip'
 ---
 kind: url
@@ -280,7 +280,7 @@ filter: 'element-by-class:property-list,html2text:lynx,strip'
 ---
 kind: url
 name: Haussmann
-url: http://www.haussmannproperties.com/index.php?phppage=search&DisplayStatusIdList=2&PurposeStatusIDList=1&CategoryIDList=1&minprice=225000&maxprice=290000&ZipList=0&search=Recherche
+url: http://www.haussmannproperties.com/index.php?phppage=search&DisplayStatusIdList=2&PurposeStatusIDList=1&CategoryIDList=1&minprice=225000&maxprice=300000&ZipList=0&search=Recherche
 filter: 'element-by-class:searchresult_house searchresult_house_left,html2text:lynx,strip'
 ---
 kind: url
@@ -294,7 +294,7 @@ data:
   PurposeID: '0'
   SearchRequest: 'true'
   Rooms: '0'
-  PriceTo: '290000'
+  PriceTo: '300000'
   X-Requested-With: XMLHttpRequest
   InvestmentEstate: 'false'
 cookies:
@@ -318,7 +318,7 @@ data:
   Furnished: 'false'
   PurposeID: '1'
   CategoryID: '1'
-  PriceTo: '290000'
+  PriceTo: '300000'
 cookies:
   AspxAutoDetectCookieSupport: '1'
 filter: 'element-by-class:list-mosaic-caption,html2text:lynx,strip'
@@ -333,7 +333,7 @@ name: IPB
 url: http://www.ibp.be/en-GB/List/16
 data:
   Rooms: '0'
-  MaxPrice: '290000'
+  MaxPrice: '300000'
   MinPrice: '225000'
   SearchType: ToSell
   ListID: '16'
@@ -349,7 +349,7 @@ filter: 'element-by-class:estate-thumb-container col-lg-3 col-md-4 col-sm-6 col-
 ---
 kind: url
 name: ImmoSchmidt
-url: http://www.immoschmidt.be/?page=liste&OxySeleOffr=V&OxySeleImme=01|Maison&OxySelePrix=225000|290000&OxySeleGeog=01|BRUXELLES%2019%20COMMUNES%20&%20EXTENSIONS&view=&OxySeleOrdre=PRIX%20ASC,COMM%20ASC,CODE
+url: http://www.immoschmidt.be/?page=liste&OxySeleOffr=V&OxySeleImme=01|Maison&OxySelePrix=225000|300000&OxySeleGeog=01|BRUXELLES%2019%20COMMUNES%20&%20EXTENSIONS&view=&OxySeleOrdre=PRIX%20ASC,COMM%20ASC,CODE
 filter: 'element-by-style:display:block; cursor: pointer; position:relative,html2text:lynx,strip'
 ---
 kind: url
@@ -359,7 +359,7 @@ filter: 'element-by-class:grid,html2text:lynx,strip'
 ---
 kind: url
 name: mape
-url: http://www.mape-realestate.com/index.php?action=list&ctypmandatmeta=v&reference=&categories%5B%5D=Maison&chambre_min=&prix_max=290000
+url: http://www.mape-realestate.com/index.php?action=list&ctypmandatmeta=v&reference=&categories%5B%5D=Maison&chambre_min=&prix_max=300000
 filter: element-by-id:portfolio-wrapper,html2text:lynx,strip
 ---
 kind: url
@@ -368,7 +368,7 @@ url: http://www.prestigeconsultor.com/Web.mvc/fr-be/List3?pageNumber=0&isAjaxReq
 data:
   SearchRequest: 'true'
   Purpose1: 'on'
-  PriceTo: '290000'
+  PriceTo: '300000'
   PurposeID: '1'
   Furnished: 'false'
   ZipListValue: '1000,1030,1040,1050,1060,1070,1080,1081,1082,1083,1090,1140,1150,1160,1170,1180,1190,1200,1210'

@@ -4,10 +4,9 @@ url: http://www.prestigeconsultor.com/Web.mvc/fr-be/List3?pageNumber=0&isAjaxReq
 data:
   SearchRequest: 'true'
   Purpose1: 'on'
-  PriceTo: '290000'
+  PriceTo: '2900000000000000000'
   PurposeID: '1'
   Furnished: 'false'
-  ZipListValue: '1000,1030,1040,1050,1060,1070,1080,1081,1082,1083,1090,1140,1150,1160,1170,1180,1190,1200,1210'
   PriceFrom: '225000'
   CategoryID: '1'
   InvestmentEstate: 'false'

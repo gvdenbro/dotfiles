@@ -1,4 +1,4 @@
 kind: url
-name: BrusselsRealEstate
-url: http://www.brusselsrealestate.eu/fr/a-vendre?view=list&page=1&ptype=1&pricemin=225000&pricemax=300000&goal=0
-filter: 'element-by-class:property-list,html2text:lynx,strip'
+name: ComfortImmoBXL
+url: http://www.comfortimmobxl.be/for-sale?transactiontype=Sale&sorts=Dwelling&cities=Brussel%2CBruxelles%2CBruxelles+%281000%29&cities=Dilbeek&cities=Etterbeek&cities=Evere&cities=Laeken&cities=Laken&cities=Sint-Jans-Molenbeek%2CMolenbeek-Saint-Jean&cities=Schaarbeek%2CSchaerbeek&cities=Sint-Joost-ten-Node%2CSaint-Josse-ten-Noode&price-from=225.000&price-to=290.000
+filter: 'element-by-class:clearfix pand-wrapper,html2text:lynx,strip'

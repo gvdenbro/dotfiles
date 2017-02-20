@@ -263,3 +263,53 @@ kind: url
 name: BrusselsRealEstate
 url: http://www.brusselsrealestate.eu/fr/a-vendre?view=list&page=1&ptype=1&pricemin=225000&pricemax=300000&goal=0
 filter: 'element-by-class:property-list,html2text:lynx,strip'
+---
+kind: url
+name: Haussmann
+url: http://www.haussmannproperties.com/index.php?phppage=search&DisplayStatusIdList=2&PurposeStatusIDList=1&CategoryIDList=1&minprice=225000&maxprice=290000&ZipList=0&search=Recherche
+filter: 'element-by-class:searchresult_house searchresult_house_left,html2text:lynx,strip'
+---
+kind: url
+name: Viabilis
+url: http://viabilis.websites.whoman2.be/Web.mvc/fr-be/List1?pageNumber=0&isAjaxRequest=True
+data:
+  CategoryID: '1'
+  RegionID: '16925'
+  PriceFrom: '225000'
+  Furnished: 'false'
+  PurposeID: '0'
+  SearchRequest: 'true'
+  Rooms: '0'
+  PriceTo: '290000'
+  X-Requested-With: XMLHttpRequest
+  InvestmentEstate: 'false'
+cookies:
+  AspxAutoDetectCookieSupport: '1'
+filter: 'element-by-class:list-mosaic-caption,html2text:lynx,strip'
+---
+kind: url
+name: ImmoWauters
+url: http://www.immo-wauters.be/Web.mvc/fr-be/List3?pageNumber=0&isAjaxRequest=True
+data:
+  SearchRequest: 'true'
+  Cities: [Auderghem|1160, Bruxelles|1000, Etterbeek|1040, Evere|1140, Ixelles|1050,
+    Molenbeek-Saint-Jean|1080, Uccle|1180, Woluwe-Saint-Lambert|1200, "Woluw\xE9-Saint-Lambert|1200",
+    Woluwe-Saint-Pierre|1150]
+  RegionID: '0'
+  PriceFrom: '225000'
+  Purpose1: 'on'
+  Rooms: '0'
+  InvestmentEstate: 'false'
+  X-Requested-With: XMLHttpRequest
+  Furnished: 'false'
+  PurposeID: '1'
+  CategoryID: '1'
+  PriceTo: '290000'
+cookies:
+  AspxAutoDetectCookieSupport: '1'
+filter: 'element-by-class:list-mosaic-caption,html2text:lynx,strip'
+---
+kind: url
+name: ComfortImmoBXL
+url: http://www.comfortimmobxl.be/for-sale?transactiontype=Sale&sorts=Dwelling&cities=Brussel%2CBruxelles%2CBruxelles+%281000%29&cities=Dilbeek&cities=Etterbeek&cities=Evere&cities=Laeken&cities=Laken&cities=Sint-Jans-Molenbeek%2CMolenbeek-Saint-Jean&cities=Schaarbeek%2CSchaerbeek&cities=Sint-Joost-ten-Node%2CSaint-Josse-ten-Noode&price-from=225.000&price-to=290.000
+filter: 'element-by-class:clearfix pand-wrapper,html2text:lynx,strip'

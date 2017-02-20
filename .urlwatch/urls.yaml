@@ -149,10 +149,24 @@ filter: element-by-class:list-mosaic-caption,html2text:lynx,strip
 cookies: {AspxAutoDetectCookieSupport='1'}
 ---
 kind: url
-name: Flho
-url: http://www.flho.be/Web.mvc/fr-be/List3?AspxAutoDetectCookieSupport=1&SearchRequest=true&Purpose1=on&PurposeID=1&Reference=&EstateName=&InvestmentEstate=false&CategoryID=1&Furnished=false&PriceFrom=225000&PriceTo=290000&Rooms=0&RegionID=0&ZipListValue=1000,1030,1040,1050,1060,1070,1080,1081,1082,1083,1090,1140,1150,1160,1170,1180,1190,1200,1210&OrderBy=Price%2CDESC&X-Requested-With=XMLHttpRequest
+name: flho
+url: http://www.flho.be/Web.mvc/fr-be/List3?pageNumber=0&isAjaxRequest=True
+data:
+  X-Requested-With: XMLHttpRequest
+  PurposeID: '1'
+  Purpose1: 'on'
+  Furnished: 'false'
+  ZipListValue: '1000,1030,1040,1050,1060,1070,1080,1081,1082,1083,1090,1140,1150,1160,1170,1180,1190,1200,1210'
+  InvestmentEstate: 'false'
+  SearchRequest: 'true'
+  RegionID: '0'
+  PriceFrom: '225000'
+  PriceTo: '290000'
+  Rooms: '0'
+  CategoryID: '1'
+cookies:
+  AspxAutoDetectCookieSupport: '1'
 filter: element-by-class:list-mosaic-caption,html2text:lynx,strip
-cookies: {AspxAutoDetectCookieSupport='1'}
 ---
 kind: url
 name: ImmoCenta
@@ -313,3 +327,37 @@ kind: url
 name: ComfortImmoBXL
 url: http://www.comfortimmobxl.be/for-sale?transactiontype=Sale&sorts=Dwelling&cities=Brussel%2CBruxelles%2CBruxelles+%281000%29&cities=Dilbeek&cities=Etterbeek&cities=Evere&cities=Laeken&cities=Laken&cities=Sint-Jans-Molenbeek%2CMolenbeek-Saint-Jean&cities=Schaarbeek%2CSchaerbeek&cities=Sint-Joost-ten-Node%2CSaint-Josse-ten-Noode&price-from=225.000&price-to=290.000
 filter: 'element-by-class:clearfix pand-wrapper,html2text:lynx,strip'
+---
+kind: url
+name: IPB
+url: http://www.ibp.be/en-GB/List/16
+data:
+  Rooms: '0'
+  MaxPrice: '290000'
+  MinPrice: '225000'
+  SearchType: ToSell
+  ListID: '16'
+  SelectedCities: ['1000', '1030', '1040', '1050', '1060', '1070', '1080', '1081', '1082', '1083', '1090', '1140', '1150', '1160', '1170', '1180', '1190', '1200', '1210']
+  Furnished: 'false'
+  SelectedType: '1'
+  SortParameter: '5'
+  __RequestVerificationToken: dKhMDx1C9qVkRgscou1N--5lebPiv5KUtlEDdwZiaBsPju1uY-eumiCHj2tGPNsBZwQ2zyxGwa2jNei8yRn2o-XzbuPE5v9UHdAk71NhHYI1
+  InvestmentEstate: 'false'
+cookies:
+  __RequestVerificationToken: wW6uzob7uy_wF9yVaI2dXsnf6VzaC5HphnhtIzOWXrR28tIrKh-hRaXQce_f_1X7RGNkq4URT1YhO7Lg9rBDbQgsBhmoWIKti2uqgEeYFqU1
+filter: 'element-by-class:estate-thumb-container col-lg-3 col-md-4 col-sm-6 col-xs-6 col-xxs-12,html2text:lynx,strip'
+---
+kind: url
+name: ImmoSchmidt
+url: http://www.immoschmidt.be/?page=liste&OxySeleOffr=V&OxySeleImme=01|Maison&OxySelePrix=225000|290000&OxySeleGeog=01|BRUXELLES%2019%20COMMUNES%20&%20EXTENSIONS&view=&OxySeleOrdre=PRIX%20ASC,COMM%20ASC,CODE
+filter: 'element-by-style:display:block; cursor: pointer; position:relative,html2text:lynx,strip'
+---
+kind: url
+name: Bonnivers
+url: http://bonnivers.be/index.php?page=liste&OxySeleOffr=V&OxySeleImme=1|MAISON&OxySelePrix=225.000|290.000&OxySeleGeog=5|BRUXELLES&view=&OxySeleOrdre=PRIX%20DESC,COMM%20ASC,CODE
+filter: 'element-by-class:grid,html2text:lynx,strip'
+---
+kind: url
+name: mape
+url: http://www.mape-realestate.com/index.php?action=list&ctypmandatmeta=v&reference=&categories%5B%5D=Maison&chambre_min=&prix_max=290000
+filter: element-by-id:portfolio-wrapper,html2text:lynx,strip

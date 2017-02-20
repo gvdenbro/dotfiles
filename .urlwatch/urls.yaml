@@ -361,3 +361,24 @@ kind: url
 name: mape
 url: http://www.mape-realestate.com/index.php?action=list&ctypmandatmeta=v&reference=&categories%5B%5D=Maison&chambre_min=&prix_max=290000
 filter: element-by-id:portfolio-wrapper,html2text:lynx,strip
+---
+kind: url
+name: PrestigeConsultor
+url: http://www.prestigeconsultor.com/Web.mvc/fr-be/List3?pageNumber=0&isAjaxRequest=True
+data:
+  SearchRequest: 'true'
+  Purpose1: 'on'
+  PriceTo: '290000'
+  PurposeID: '1'
+  Furnished: 'false'
+  ZipListValue: '1000,1030,1040,1050,1060,1070,1080,1081,1082,1083,1090,1140,1150,1160,1170,1180,1190,1200,1210'
+  PriceFrom: '225000'
+  CategoryID: '1'
+  InvestmentEstate: 'false'
+  RegionID: '0'
+  X-Requested-With: XMLHttpRequest
+  Rooms: '0'
+cookies:
+  ASP.NET_SessionId: kyk3sgy4x5terzqxqwez2wkp
+  AspxAutoDetectCookieSupport: '1'
+filter: element-by-id:listItemContainer,html2text:lynx,strip

@@ -5,17 +5,17 @@ filter: element-by-class:property-info,html2text:lynx,strip
 ---
 kind: url
 name: EspaceImmo
-url: http://www.espaceimmobrussels.be/a-vendre/Type-01%7CMaison/Prix-200000%7C300000/NbChambres-3
+url: http://www.espaceimmobrussels.be/a-vendre/Type-01%7CMaison/Prix-225000%7C300000/NbChambres-3
 filter: element-by-class:cp-bien--content,html2text:lynx,strip
 ---
 kind: url
 name: SybImmo
-url: http://www.sybimmo.be/nl/te-koop/woningen/?type=5&city=Schaarbeek%2CSint-Agatha-Berchem%2CSint-Gillis%2CSint-Jans-Molenbeek&price-range=200000+-+300000
+url: http://www.sybimmo.be/nl/te-koop/woningen/?type=5&city=Schaarbeek%2CSint-Agatha-Berchem%2CSint-Gillis%2CSint-Jans-Molenbeek&price-range=225000+-+300000
 filter: element-by-class:imgExt,html2text:lynx,strip
 ---
 kind: url
 name: MacNash
-url: http://www.macnash.com/ui/propertyitems.aspx?ZPTID=3&TT=0&PMax=300000&RMin=3&Search=1000,1030,1040,1050,1060,1070,1080,1081,1082,1083,1090,1140,1150,1160,1170,1180,1190,1200,1210
+url: http://www.macnash.com/ui/propertyitems.aspx?ZPTID=3&TT=0&PMin=225000&PMax=300000&RMin=3&Search=1000,1030,1040,1050,1060,1070,1080,1081,1082,1083,1090,1140,1150,1160,1170,1180,1190,1200,1210
 filter: element-by-class:caption,html2text:lynx,strip
 ---
 kind: url
@@ -25,7 +25,7 @@ filter: element-by-class:result-estate-content,html2text:lynx,strip
 ---
 kind: url
 name: Era
-url: https://www.era.be/nl/te-koop/brussel/huis?muni-brussel=brussel&price=200000+270000&rooms=3+4
+url: https://www.era.be/nl/te-koop/brussel/huis?muni-brussel=brussel&price=225000+300000&rooms=3+4+5+6
 filter: element-by-class:group-main,html2text:lynx,strip
 ---
 kind: url
@@ -35,7 +35,7 @@ filter: element-by-class:property-info,html2text:lynx,strip
 ---
 kind: url
 name: ImmoGrootLeeuw
-url: http://www.immogrootleeuw.be/fr/a-vendre/?type=5&city=Anderlecht%2CGroot-Bijgaarden%2CJette&price-range=200000+-+300000
+url: http://www.immogrootleeuw.be/fr/a-vendre/?type=5&city=Anderlecht%2CGroot-Bijgaarden%2CJette&price-range=225000+-+300000
 filter: element-by-class:imgExt,html2text:lynx,strip
 ---
 kind: url
@@ -45,12 +45,12 @@ filter: element-by-class:desc,html2text:lynx,strip
 ---
 kind: url
 name: NewTendances
-url: http://www.newtendances.be/index.php?action=list&ctypmandatmeta=v&reference=&categories%5B%5D=Maison&chambre_min=3&villes%5B%5D=Brussel+21&villes%5B%5D=Bruxelles++1&villes%5B%5D=Bruxelles++2&villes%5B%5D=Evere&villes%5B%5D=Forest&villes%5B%5D=Ixelles&villes%5B%5D=Koekelberg&villes%5B%5D=Molenbeek-Saint-Jean&villes%5B%5D=Saint+Josse&villes%5B%5D=Saint-Gilles&villes%5B%5D=Schaerbeek&villes%5B%5D=Watermael-Boitsfort&villes%5B%5D=Woluw%C3%A9-Saint-Pierre&prix_max=300000
+url: http://www.newtendances.be/index.php?action=list&ctypmandatmeta=v&reference=&categories%5B%5D=Maison&chambre_min=3&villes%5B%5D=Brussel+21&villes%5B%5D=Bruxelles++1&villes%5B%5D=Bruxelles++2&villes%5B%5D=Evere&villes%5B%5D=Forest&villes%5B%5D=Ixelles&villes%5B%5D=Koekelberg&villes%5B%5D=Molenbeek-Saint-Jean&villes%5B%5D=Saint+Josse&villes%5B%5D=Saint-Gilles&villes%5B%5D=Schaerbeek&villes%5B%5D=Watermael-Boitsfort&villes%5B%5D=Woluw%C3%A9-Saint-Pierre&prix_min=225000&prix_max=300000
 filter: element-by-class:item-description alt,html2text:lynx,strip
 ---
 kind: url
 name: Century21
-url: http://www.century21.be/en/house/for-sale/belgium/brussels/-0km/250000-300000/3_bedrooms/
+url: http://www.century21.be/en/house/for-sale/belgium/brussels/-0km/225000-300000/3_bedrooms/
 filter: element-by-class:about,html2text:lynx,strip
 ---
 kind: url
@@ -67,7 +67,7 @@ cookies: {AspxAutoDetectCookieSupport='1'}
 ---
 kind: url
 name: Pajota
-url: https://www.pajota.be/nl/te-koop/woningen/3-kamers/min-230000-euro/max-300000-euro/zip-1000-1030-1040-1050-1060-1070-1080-1081-1082-1083-1090-1140-1150-1160-1170-1180-1190-1200-1210/
+url: https://www.pajota.be/nl/te-koop/woningen/3-kamers/min-225000-euro/max-300000-euro/zip-1000-1030-1040-1050-1060-1070-1080-1081-1082-1083-1090-1140-1150-1160-1170-1180-1190-1200-1210/
 filter: element-by-class:marks,html2text:lynx,strip
 ---
 kind: url
@@ -139,7 +139,7 @@ filter: element-by-class:vignette,html2text:lynx,strip
 ---
 kind: url
 name: JonInvest
-url: http://www.joninvest.be/fr/a-vendre/?type=5&city=&price-range=225.000+-+290.000+EUR&sort=dateASC
+url: http://www.joninvest.be/fr/a-vendre/?type=5&city=&price-range=225000+-+300000+EUR&sort=dateASC
 filter: element-by-class:imgExt,html2text:lynx,strip
 ---
 kind: url
@@ -258,7 +258,7 @@ data: {"SearchRequest": "true", ZipListValue: "1000,1030,1040,1050,1060,1070,108
 ---
 kind: url
 name: AdHocImmo
-url: http://www.adhocimmo.be/index.php?action=list&ctypmandatmeta=v&reference=&categories%5B%5D=Maison&chambre_min=&prix_max=300000
+url: http://www.adhocimmo.be/index.php?action=list&ctypmandatmeta=v&reference=&categories%5B%5D=Maison&chambre_min=&prix_max=300000&prix_min=225000
 filter: 'element-by-id:portfolio-wrapper,html2text:lynx,strip'
 ---
 kind: url
@@ -270,7 +270,7 @@ data: {"SearchRequest": "true", ZipListValue: "1000,1030,1040,1050,1060,1070,108
 ---
 kind: url
 name: otimmosablon
-url: http://www.otimmosablon.be/index.php?action=list&ctypmandatmeta=v&reference=&categories%5B%5D=Maison&chambre_min=&prix_max=300000
+url: http://www.otimmosablon.be/index.php?action=list&ctypmandatmeta=v&reference=&categories%5B%5D=Maison&chambre_min=&prix_max=300000&prix_min=225000
 filter: 'element-by-class:four columns portfolio-item,html2text:lynx,strip'
 ---
 kind: url
@@ -325,7 +325,7 @@ filter: 'element-by-class:list-mosaic-caption,html2text:lynx,strip'
 ---
 kind: url
 name: ComfortImmoBXL
-url: http://www.comfortimmobxl.be/for-sale?transactiontype=Sale&sorts=Dwelling&cities=Brussel%2CBruxelles%2CBruxelles+%281000%29&cities=Dilbeek&cities=Etterbeek&cities=Evere&cities=Laeken&cities=Laken&cities=Sint-Jans-Molenbeek%2CMolenbeek-Saint-Jean&cities=Schaarbeek%2CSchaerbeek&cities=Sint-Joost-ten-Node%2CSaint-Josse-ten-Noode&price-from=225.000&price-to=290.000
+url: http://www.comfortimmobxl.be/for-sale?transactiontype=Sale&sorts=Dwelling&cities=Brussel%2CBruxelles%2CBruxelles+%281000%29&cities=Dilbeek&cities=Etterbeek&cities=Evere&cities=Laeken&cities=Laken&cities=Sint-Jans-Molenbeek%2CMolenbeek-Saint-Jean&cities=Schaarbeek%2CSchaerbeek&cities=Sint-Joost-ten-Node%2CSaint-Josse-ten-Noode&price-from=225000&price-to=300000
 filter: 'element-by-class:clearfix pand-wrapper,html2text:lynx,strip'
 ---
 kind: url
@@ -354,12 +354,12 @@ filter: 'element-by-style:display:block; cursor: pointer; position:relative,html
 ---
 kind: url
 name: Bonnivers
-url: http://bonnivers.be/index.php?page=liste&OxySeleOffr=V&OxySeleImme=1|MAISON&OxySelePrix=225.000|290.000&OxySeleGeog=5|BRUXELLES&view=&OxySeleOrdre=PRIX%20DESC,COMM%20ASC,CODE
+url: http://bonnivers.be/index.php?page=liste&OxySeleOffr=V&OxySeleImme=1|MAISON&OxySelePrix=225000|300000&OxySeleGeog=5|BRUXELLES&view=&OxySeleOrdre=PRIX%20DESC,COMM%20ASC,CODE
 filter: 'element-by-class:grid,html2text:lynx,strip'
 ---
 kind: url
 name: mape
-url: http://www.mape-realestate.com/index.php?action=list&ctypmandatmeta=v&reference=&categories%5B%5D=Maison&chambre_min=&prix_max=300000
+url: http://www.mape-realestate.com/index.php?action=list&ctypmandatmeta=v&reference=&categories%5B%5D=Maison&chambre_min=&prix_max=300000&prix_max=225000
 filter: element-by-id:portfolio-wrapper,html2text:lynx,strip
 ---
 kind: url
@@ -379,6 +379,5 @@ data:
   X-Requested-With: XMLHttpRequest
   Rooms: '0'
 cookies:
-  ASP.NET_SessionId: kyk3sgy4x5terzqxqwez2wkp
   AspxAutoDetectCookieSupport: '1'
 filter: element-by-id:listItemContainer,html2text:lynx,strip

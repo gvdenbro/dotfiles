@@ -30,7 +30,12 @@ filter: element-by-class:group-main,html2text:lynx,strip
 ---
 kind: url
 name: DirectImmo
-url: http://www.direct-immo.be/fr/a-vendre?view=list&page=1&ptype=1&pricemin=225000&pricemax=300000
+url: http://www.direct-immo.be/fr/a-vendre?view=list&page=1
+data:
+  ptype: 1
+  pricemin: 225000
+  pricemax: 300000
+  cities: "ANDERLECHT,BERCHEM-SAINTE-AGATHE,BRUXELLES,EVERE,GANSHOREN,JETTE,KOEKELBERG,MOLENBEEK-SAINT-JEAN,SAINT-GILLES,SAINT-JOSSE-TEN-NOODE,SCHAERBEEK,UCCLE"
 filter: element-by-class:property-info,html2text:lynx,strip
 ---
 kind: url

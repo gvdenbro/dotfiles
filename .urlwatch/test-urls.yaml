@@ -1,12 +1,4 @@
 kind: url
-name: TeamProperty
-url: http://www.team-property.be/Web.mvc/fr-be/List1?pageNumber=0&isAjaxRequest=True
-data:
-  Price: "225000,300000"
-  X-Requested-With: XMLHttpRequest
-  CategoryID: '1'
-  SearchRequest: 'true'
-  ZipListValue: '1000,1030,1040,1050,1060,1070,1080,1081,1082,1083,1090,1140,1150,1160,1170,1180,1190,1200,1210'
-cookies:
-  AspxAutoDetectCookieSupport: '1'
-filter: "element-by-style:width: 132px; height: 156px; background-color: #833734,html2text:lynx,strip"
+name: ocestbeau
+url: http://www.ocestbeau.be/fr/acheter?building=01&budget-from=225000&budget-to=3000000&ref=&rooms-from=&rooms-to=&surface-from=&surface-to=&advanced=0&orientation-min=&kitchen=&district=&bath-from=&bath-to=&sort=new
+filter: "element-by-class:search-result,html2text:lynx,strip"

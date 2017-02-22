@@ -1,5 +1,5 @@
 display:
-  error: true
+  error: false
   new: true
   unchanged: false
 report:

@@ -399,3 +399,27 @@ data:
 cookies:
   AspxAutoDetectCookieSupport: '1'
 filter: "element-by-style:width: 132px; height: 156px; background-color: #833734,html2text:lynx,strip"
+---
+kind: url
+name: lecobel-vaneau
+url: http://www.lecobel-vaneau.be/en-GB/List/16
+data:
+  SelectedCities: ['1000', '1030', '1040', '1050', '1060', '1070', '1080', '1081', '1082', '1083', '1090', '1140', '1150', '1160', '1170', '1180', '1190', '1200', '1210']
+  InvestmentEstate: 'false'
+  SelectedType: '1'
+  SearchType: ToSell
+  MinPrice: '225000'
+  ListID: '16'
+  SortParameter: '5'
+  MaxPrice: '300000'
+  Furnished: 'false'
+  __RequestVerificationToken: UAxTKUV9qkwst8_LZO7U87Su30kxZav2fiDeZp2smYvhk_d4TS9nEli1YSw9iAYQQz03ap-LZAKqx-LqGp39kypTSh7Dd7IFrvn9vVRYcyc1
+  Rooms: '0'
+cookies:
+  __RequestVerificationToken: EZgtcGf0PTxdM82LZ2s7BEgIFoWQqom2OFlpVrlcP5tTLaGKA2CuQCR1Vf4kPkJYk0ZfcP-MeLYwys9uUengEWSWE_ig-0o0TD2GnliOtWg1
+filter: "element-by-class:estate-thumb-container col-lg-3 col-md-4 col-sm-6 col-xs-6 col-xxs-12,html2text:lynx,strip"
+---
+kind: url
+name: ocestbeau
+url: http://www.ocestbeau.be/fr/acheter?building=01&budget-from=225000&budget-to=300000&ref=&rooms-from=&rooms-to=&surface-from=&surface-to=&advanced=0&orientation-min=&kitchen=&district=&bath-from=&bath-to=&sort=new
+filter: "element-by-class:search-result,html2text:lynx,strip"

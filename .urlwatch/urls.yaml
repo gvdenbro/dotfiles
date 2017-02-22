@@ -423,3 +423,8 @@ kind: url
 name: ocestbeau
 url: http://www.ocestbeau.be/fr/acheter?building=01&budget-from=225000&budget-to=300000&ref=&rooms-from=&rooms-to=&surface-from=&surface-to=&advanced=0&orientation-min=&kitchen=&district=&bath-from=&bath-to=&sort=new
 filter: "element-by-class:search-result,html2text:lynx,strip"
+---
+kind: url
+name: tribel
+url: http://www.tribel-immo.be/fr/a-vendre?view=list&page=1&ptype=1&pricemin=225000&pricemax=300000
+filter: element-by-class:property-info,html2text:lynx,strip

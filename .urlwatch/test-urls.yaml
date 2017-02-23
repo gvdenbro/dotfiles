@@ -1,4 +1,4 @@
 kind: url
-name: immoclairiere
-url: http://bruxelles.immoclairiere.be/index.php?action=list&ctypmandatmeta=v&cbien=&ctypmetamulti%5B%5D=mai&qchambres=&llocalitemulti%5B%5D=Anderlecht&llocalitemulti%5B%5D=Bruxelles++1&llocalitemulti%5B%5D=Bruxelles++2&llocalitemulti%5B%5D=Bruxelles++5&llocalitemulti%5B%5D=Bruxelles++8&llocalitemulti%5B%5D=Etterbeek&llocalitemulti%5B%5D=Forest&llocalitemulti%5B%5D=Ixelles&llocalitemulti%5B%5D=Jette&llocalitemulti%5B%5D=Koekelberg&llocalitemulti%5B%5D=Molenbeek-Saint-Jean&llocalitemulti%5B%5D=Saint-Gilles&llocalitemulti%5B%5D=Schaerbeek&llocalitemulti%5B%5D=Uccle&llocalitemulti%5B%5D=Watermael-Boitsfort&llocalitemulti%5B%5D=Woluw%C3%A9-Saint-Lambert&llocalitemulti%5B%5D=Woluw%C3%A9-Saint-Pierre&mprixmin=225000&mprixmax=300000
-filter: element-by-class:post,html2text:lynx,strip
+name: agencewashington
+url: http://www.agencewashington.be/index.php?action=list&ctypmandatmeta=v&reference=&categories%5B%5D=Maison&chambre_min=&prix_min=225000&prix_max=300000
+filter: "element-by-id:portfolio-wrapper,html2text:lynx,strip"

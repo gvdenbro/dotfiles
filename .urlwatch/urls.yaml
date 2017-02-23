@@ -433,3 +433,38 @@ kind: url
 name: immoclairiere
 url: http://bruxelles.immoclairiere.be/index.php?action=list&ctypmandatmeta=v&cbien=&ctypmetamulti%5B%5D=mai&qchambres=&llocalitemulti%5B%5D=Anderlecht&llocalitemulti%5B%5D=Bruxelles++1&llocalitemulti%5B%5D=Bruxelles++2&llocalitemulti%5B%5D=Bruxelles++5&llocalitemulti%5B%5D=Bruxelles++8&llocalitemulti%5B%5D=Etterbeek&llocalitemulti%5B%5D=Forest&llocalitemulti%5B%5D=Ixelles&llocalitemulti%5B%5D=Jette&llocalitemulti%5B%5D=Koekelberg&llocalitemulti%5B%5D=Molenbeek-Saint-Jean&llocalitemulti%5B%5D=Saint-Gilles&llocalitemulti%5B%5D=Schaerbeek&llocalitemulti%5B%5D=Uccle&llocalitemulti%5B%5D=Watermael-Boitsfort&llocalitemulti%5B%5D=Woluw%C3%A9-Saint-Lambert&llocalitemulti%5B%5D=Woluw%C3%A9-Saint-Pierre&mprixmin=225000&mprixmax=300000
 filter: element-by-class:post,html2text:lynx,strip
+---
+kind: url
+name: aidb
+url: http://www.aidb.be/index.php?action=list&ctypmandatmeta=v&reference=&categories%5B%5D=Maison&surface_habitable_min=&chambre_min=&surface_terrain_min=0&villes%5B%5D=Anderlecht&villes%5B%5D=Auderghem&villes%5B%5D=Berchem-Sainte-Agathe&villes%5B%5D=Berchem-Ste-Agathe&villes%5B%5D=Bruxelles&villes%5B%5D=Bruxelles++1&villes%5B%5D=Etterbeek&villes%5B%5D=Evere&villes%5B%5D=Forest&villes%5B%5D=Ixelles&villes%5B%5D=Jette&villes%5B%5D=Koekelberg&villes%5B%5D=Saint-Gilles&villes%5B%5D=Schaarbeek&villes%5B%5D=Schaerbeek&villes%5B%5D=Uccle&villes%5B%5D=Watermael-Boitsfort&villes%5B%5D=Woluwe-Saint-Lambert&villes%5B%5D=Woluwe-Saint-Pierre&prix_min=225000&prix_max=300000&orderby=bien.mprix+asc
+filter: element-by-id:portfolio-wrapper,html2text:lynx,strip
+---
+kind: url
+name: addressre
+url: http://www.address-re.be/nl/te-koop?view=list&page=1&ptype=1&pricemin=225000&pricemax=300000&minroom=0&maxroom=6&goal=0
+filter: "element-by-class:property-info,html2text:lynx,strip"
+---
+kind: url
+name: modifa
+url: http://www.modifa.be/Web.mvc/fr-be/List3?pageNumber=0&isAjaxRequest=True
+data:
+  Purpose1: 'on'
+  PriceTo: '300000'
+  ZipListValue: '1000,1030,1040,1050,1060,1070,1080,1081,1082,1083,1090,1140,1150,1160,1170,1180,1190,1200,1210'
+  CategoryID: '1'
+  PurposeID: '1'
+  Furnished: 'false'
+  InvestmentEstate: 'false'
+  PriceFrom: '225000'
+  Rooms: '0'
+  SearchRequest: 'true'
+  RegionID: '0'
+  X-Requested-With: XMLHttpRequest
+cookies:
+  AspxAutoDetectCookieSupport: '1'
+filter: "element-by-id:listItemContainer,html2text:lynx,strip"
+---
+kind: url
+name: agencewashington
+url: http://www.agencewashington.be/index.php?action=list&ctypmandatmeta=v&reference=&categories%5B%5D=Maison&chambre_min=&prix_min=225000&prix_max=300000
+filter: "element-by-id:portfolio-wrapper,html2text:lynx,strip"

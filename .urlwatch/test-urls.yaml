@@ -1,4 +1,20 @@
 kind: url
-name: agencewashington
-url: http://www.agencewashington.be/index.php?action=list&ctypmandatmeta=v&reference=&categories%5B%5D=Maison&chambre_min=&prix_min=225000&prix_max=300000
-filter: "element-by-id:portfolio-wrapper,html2text:lynx,strip"
+name: PopsImmo
+url: http://www.popsimmo.be/Web.mvc/fr-be/List3?pageNumber=0&isAjaxRequest=True
+data:
+  Purpose2: 'on'
+  X-Requested-With: XMLHttpRequest
+  Rooms: '0'
+  InvestmentEstate: 'false'
+  PriceTo: '300000'
+  RegionID: '0'
+  PriceFrom: '225000'
+  CategoryID: '1'
+  SearchRequest: 'true'
+  Purpose1: 'on'
+  Furnished: 'false'
+  PurposeID: '0'
+  ZipListValue: '1000,1030,1040,1050,1060,1070,1080,1081,1082,1083,1090,1140,1150,1160,1170,1180,1190,1200,1210'
+cookies:
+  AspxAutoDetectCookieSupport: '1'
+filter: "element-by-id:listItemContainer,html2text:lynx,strip"

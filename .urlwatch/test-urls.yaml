@@ -1,20 +1,19 @@
 kind: url
-name: PopsImmo
-url: http://www.popsimmo.be/Web.mvc/fr-be/List3?pageNumber=0&isAjaxRequest=True
+name: ellipsisimmo
+url: http://www.ellipsisimmo.be/Web.mvc/fr-be/List3?pageNumber=0&isAjaxRequest=True
 data:
-  Purpose2: 'on'
-  X-Requested-With: XMLHttpRequest
+  RegionID: '0'
+  SearchRequest: 'true'
+  PurposeID: '1'
+  CategoryID: '1'
+  Furnished: 'false'
   Rooms: '0'
+  ZipListValue: '1000,1030,1040,1050,1060,1070,1080,1081,1082,1083,1090,1140,1150,1160,1170,1180,1190,1200,1210'
   InvestmentEstate: 'false'
   PriceTo: '300000'
-  RegionID: '0'
-  PriceFrom: '225000'
-  CategoryID: '1'
-  SearchRequest: 'true'
   Purpose1: 'on'
-  Furnished: 'false'
-  PurposeID: '0'
-  ZipListValue: '1000,1030,1040,1050,1060,1070,1080,1081,1082,1083,1090,1140,1150,1160,1170,1180,1190,1200,1210'
+  X-Requested-With: XMLHttpRequest
+  PriceFrom: '225000'
 cookies:
   AspxAutoDetectCookieSupport: '1'
 filter: "element-by-id:listItemContainer,html2text:lynx,strip"

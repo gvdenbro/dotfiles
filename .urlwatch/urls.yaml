@@ -518,3 +518,33 @@ data:
 cookies:
   AspxAutoDetectCookieSupport: '1'
 filter: "element-by-id:listItemContainer,html2text:lynx,strip"
+---
+kind: url
+name: redimmobilier
+url: http://www.redimmobilier.be/immo/searchresult.php?ctyprecord=prospect&ctyp=ma&lregion=Bruxelles&lcp=&mprixmin=225000&mprixmax=300000&cbien=&showtyp=3&maxRows_rsBien=12&pageNum_rsBien=0&clangueurl=fr&submit=Chercher
+filter: "element-by-class:texte,html2text:lynx,strip"
+---
+kind: url
+name: conceptproperties
+url: http://www.conceptproperties.be/index.php?action=list&ctypmandatmeta=v&reference=&categories%5B%5D=Maison&chambre_min=&prix_max=300000
+filter: "element-by-id:portfolio-wrapper,html2text:lynx,strip"
+---
+kind: url
+name: ellipsisimmo
+url: http://www.ellipsisimmo.be/Web.mvc/fr-be/List3?pageNumber=0&isAjaxRequest=True
+data:
+  RegionID: '0'
+  SearchRequest: 'true'
+  PurposeID: '1'
+  CategoryID: '1'
+  Furnished: 'false'
+  Rooms: '0'
+  ZipListValue: '1000,1030,1040,1050,1060,1070,1080,1081,1082,1083,1090,1140,1150,1160,1170,1180,1190,1200,1210'
+  InvestmentEstate: 'false'
+  PriceTo: '300000'
+  Purpose1: 'on'
+  X-Requested-With: XMLHttpRequest
+  PriceFrom: '225000'
+cookies:
+  AspxAutoDetectCookieSupport: '1'
+filter: "element-by-id:listItemContainer,html2text:lynx,strip"

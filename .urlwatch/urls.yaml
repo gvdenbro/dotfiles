@@ -548,3 +548,8 @@ data:
 cookies:
   AspxAutoDetectCookieSupport: '1'
 filter: "element-by-id:listItemContainer,html2text:lynx,strip"
+---
+kind: url
+name: burimmo
+url: http://www.burimmo.be/?page=liste&OxySeleOffr=V&OxySeleOffr=V&OxySeleImme=01|House&OxySelePrix=225000|300000&view=&OxySeleOrdre=PRIX%20ASC,COMM%20ASC,CODE&OxySeleGeog=01|BRUXELLES%2019%20COMMUNES%20&%20EXTENSIONS
+filter: "element-by-class:list-item col-md-3 col-sm-4 col-xs-12 ,html2text:lynx,strip"

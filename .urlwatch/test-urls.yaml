@@ -1,9 +1,4 @@
 kind: url
-name: burimmo
-url: http://www.burimmo.be/?page=liste&OxySeleOffr=V&OxySeleOffr=V&OxySeleImme=01|House&OxySelePrix=225000|300000&view=&OxySeleOrdre=PRIX%20ASC,COMM%20ASC,CODE&OxySeleGeog=01|BRUXELLES%2019%20COMMUNES%20&%20EXTENSIONS
-filter: "element-by-class:list-item col-md-3 col-sm-4 col-xs-12 ,html2text:lynx,strip"
----
-kind: url
-name: Zimmo
-url: http://www.zimmo.be/fr/biens/?status=1&type%5B0%5D=5&priceMin=225000&priceMax=300000&priceIncludeUnknown=0&priceChangedOnly=0&bedroomsIncludeUnknown=1&bathroomsIncludeUnknown=1&constructionIncludeUnknown=1&livingAreaIncludeUnknown=1&landAreaIncludeUnknown=1&commercialAreaIncludeUnknown=1&yearOfConstructionIncludeUnknown=1&epcIncludeUnknown=1&queryCondition=and&includeNoPhotos=0&includeNoAddress=0&onlyRecent=1&onlyRecentlyUpdated=1&region=list&district=MwQA&sort=recent&sort_order=DESC
-filter: element-by-class:item  ,html2text:lynx,strip
+name: Century21cinquantenaire
+url: http://www.century21.be/cinquantenaire/fr/maison/a-vendre/belgique/-0km/225000-300000/3_bedrooms/
+filter: element-by-class:about,html2text:lynx,strip

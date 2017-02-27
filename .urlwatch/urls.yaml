@@ -548,3 +548,50 @@ kind: url
 name: burimmo
 url: http://www.burimmo.be/?page=liste&OxySeleOffr=V&OxySeleOffr=V&OxySeleImme=01|House&OxySelePrix=225000|300000&view=&OxySeleOrdre=PRIX%20ASC,COMM%20ASC,CODE&OxySeleGeog=01|BRUXELLES%2019%20COMMUNES%20&%20EXTENSIONS
 filter: "element-by-class:list-item col-md-3 col-sm-4 col-xs-12 ,html2text:lynx,strip"
+---
+kind: url
+name: greenkey
+url: http://www.greenkey.be/Web.mvc/fr-BE/List1
+data:
+  SearchRequest: 'true'
+  RegionIDList: '6568'
+  PurposeID: '1'
+  CategoryID: '1'
+  InvestmentEstate: 'false'
+  PriceTo: '300000'
+  Purpose1: 'on'
+  X-Requested-With: XMLHttpRequest
+  PriceFrom: '225000'
+cookies:
+  AspxAutoDetectCookieSupport: '1'
+filter: "element-by-id:listItemContainer,html2text:lynx,strip"
+---
+kind: url
+name: Century21Action
+url: http://www.century21.be/action-schaerbeek/fr/maison/a-vendre/belgique/-0km/225000-300000/3_bedrooms/
+filter: element-by-class:about,html2text:lynx,strip
+---
+kind: url
+name: Century21Agimmo
+url: http://www.century21.be/groupagimmo/fr/maison/a-vendre/belgique/-0km/225000-300000/3_bedrooms/
+filter: element-by-class:about,html2text:lynx,strip
+---
+kind: url
+name: immorenier
+url: http://www.evosys.be/Virtual/renier/liste.php?OxySeleOffr%5B%5D=V&OxySeleImme%5B%5D=00%2C13%2C14%2CBREND&OxySeleOrdre=PRIX+ASC%2C+COMM+ASC
+filter: element-by-class:ContenuDiv,html2text:lynx,strip
+---
+kind: url
+name: Century21Abitat
+url: http://www.century21.be/abitat/fr/maison/a-vendre/belgique/-0km/225000-300000/3_bedrooms/
+filter: element-by-class:about,html2text:lynx,strip
+---
+kind: url
+name: Century21Invest
+url: http://www.century21.be/invest/fr/maison/a-vendre/belgique/-0km/225000-300000/3_bedrooms/
+filter: element-by-class:about,html2text:lynx,strip
+---
+kind: url
+name: Century21cinquantenaire
+url: http://www.century21.be/cinquantenaire/fr/maison/a-vendre/belgique/-0km/225000-300000/3_bedrooms/
+filter: element-by-class:about,html2text:lynx,strip

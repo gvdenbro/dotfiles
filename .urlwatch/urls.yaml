@@ -595,3 +595,28 @@ kind: url
 name: Century21cinquantenaire
 url: http://www.century21.be/cinquantenaire/fr/maison/a-vendre/belgique/-0km/225000-300000/3_bedrooms/
 filter: element-by-class:about,html2text:lynx,strip
+---
+kind: url
+name: Century21boondael
+url: http://www.century21.be/boondael/fr/maison/a-vendre/belgique/-0km/225000-300000/3_bedrooms/
+filter: element-by-class:about,html2text:lynx,strip
+---
+kind: url
+name: Century21miroir
+url: http://www.century21.be/miroir-jette/fr/maison/a-vendre/belgique/-0km/225000-300000/3_bedrooms/
+filter: element-by-class:about,html2text:lynx,strip
+---
+kind: url
+name: Century21city
+url: http://www.century21.be/city/fr/maison/a-vendre/belgique/-0km/225000-300000/3_bedrooms/
+filter: element-by-class:about,html2text:lynx,strip
+---
+kind: url
+name: Century21miroir-koekelberg
+url: http://www.century21.be/miroir-koekelberg/fr/maison/a-vendre/belgique/-0km/225000-300000/3_bedrooms/
+filter: element-by-class:about,html2text:lynx,strip
+---
+kind: url
+name: Century21besthouse
+url: http://www.century21.be/besthouse/fr/maison/a-vendre/belgique/-0km/225000-300000/3_bedrooms/
+filter: element-by-class:about,html2text:lynx,strip

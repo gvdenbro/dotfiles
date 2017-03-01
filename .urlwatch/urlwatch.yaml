@@ -28,8 +28,8 @@ report:
     subject: '{count} changes: {jobs}'
     to: ''
   telegram:
-    bot_token: '375229228:AAE7PhSvmF5MCeluGmUItsWBRFgQllzmY5E'
-    chat_id: '46331370'
+    bot_token: '379233301:AAG8LcKE-Q0n3WYSB3KY4sw3ap51Q3lvaX4'
+    chat_id: '-216756062'
     enabled: true
   pushbullet:
     api_key: ''

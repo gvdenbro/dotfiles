@@ -627,3 +627,117 @@ url: http://www.soho1.be/index.php?page=liste&OxySeleOffr=V&OxySelePrix=225000|3
 cookies:
   PHPSESSID: hq6okmj6os20slbci0n863nrm1
 filter: "element-by-class:list-item col-md-3 col-sm-4 col-xs-12 ,html2text:lynx,strip"
+---
+kind: url
+name: ImmoVlan
+url: http://immo.vlan.be/fr/Search/Fetch
+data:
+  isWithGarage: 'false'
+  searchKey: s_0e9b6419392ad45052530fc285dcb244181cfa2d
+  isNewConstruction: 'true'
+  isDisabledFriendly: 'false'
+  isLifeAnnuity: 'true'
+  searchSurfaceFrom: '125'
+  bedroomsFrom: '3'
+  isForSaleHoliday: 'false'
+  isForSale: 'true'
+  isModified: 'false'
+  propertyTypeIds: ['11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21',
+    '1']
+  countryId: '318'
+  isNew: 'false'
+  isPublicSale: 'true'
+  isBatch: 'true'
+  sortBy: '0'
+  priceFrom: '225000'
+  isHoliday: 'false'
+  isFacade3: 'false'
+  isWithGarden: 'false'
+  isForRent: 'false'
+  isWithFreeWifi: 'false'
+  isFacade2: 'false'
+  countOnly: 'false'
+  isWithTerrace: 'false'
+  locations: '[object Object]'
+  serializedLocations: Province_0_259_0_Bruxelles
+  priceTo: '315000'
+  isBabyFriendly: 'false'
+  page: '1'
+  isWithPeb: 'false'
+  isFacade4: 'false'
+  listType: List
+  isWithFurniture: 'false'
+  viewType: List
+  isWithPool: 'false'
+  isRecent: 'false'
+cookies:
+  CookieLastSearchResultListType: List
+  ASP.NET_SessionId: oqhfdvw1yvaaspjjpt1zdw4z
+  lang: fr
+  CookieLastSearchTransactionTypeId: '74'
+  CookieLastSearchPriceRangeId: '24'
+  rmg-tracking-cookie: search_immo_buy,2&search_immo_rent,0&date,1488644441523
+  CookieLastSearchMinPrice: '225000'
+  CookieLastSearchPropertyTypeId: '1'
+  CookieLastSearchProvinceId: '259'
+  __RequestVerificationToken: s6nwsjJFuRoQ3B_sXcR7XJwfJr-oY-vCX4xN2eSGNg6ql48FT0__LAIntfvp9clsY8RaH7QTmgsM8Uc8LHImeNDPBE41
+headers:
+  Pragma: no-cache
+  Origin: http://immo.vlan.be
+  Accept-Encoding: gzip, deflate
+  Accept-Language: en-US,en;q=0.8,nl;q=0.6,fr;q=0.4,ja;q=0.2
+  User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko)
+    Ubuntu Chromium/56.0.2924.76 Chrome/56.0.2924.76 Safari/537.36
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Accept: '*/*'
+  Cache-Control: no-cache
+  X-Requested-With: XMLHttpRequest
+  Connection: keep-alive
+  Referer: http://immo.vlan.be/fr/Recherche/Maison/%C3%A0-vendre/Bruxelles/?MinPrice=225000&MaxPrice=315000&MinBedrooms=3&IsProject=Yes&IsBatch=Yes&LifeAnnuity=Yes
+filter: "formatted_json:List,strip"
+---
+kind: url
+name: ImmoWeb
+url: http://www.immoweb.be/fr/recherche/maison/a-vendre/bruxelles/arrondissement?minprice=225000&maxprice=315000&minroom=3&page=1&ajax=true
+cookies:
+  JSESSIONID: 4B63525F248B249753FAD3F642809075.cfusion
+  LANGUAGE: fr
+  NPI: 37%2CParVisit%2CP%2C18%2D10%2D2016%2C78
+  CKVISITCOUNT: '0'
+  imbvpjs-sov-adside: '0'
+  REFRESH_TOKEN: fe248dc7%2D9cd8%2D4933%2Dbc56%2D0c5ba4e03838
+  CkloggedClientPrenom: Team
+  COOKIEVISIBILITY: 1%20%2C%20B%20%2C%201%20%2C1030%2C%20N
+  CkloggedClientId: '2223319'
+  imbvpjs-sov-adimsxl: '0'
+  ACCESS_TOKEN: 9a66b025%2D2129%2D4181%2Db719%2D8de3d44933f3
+  CKVISITDATELAST: '201703070811'
+  incap_ses_282_150286: P4LdT70kCXGIoOD1593pAy5UvlgAAAAAhc5HwUs/ZsDjSuOMcGHVDg==
+  CKTYPEBIENVISITE: ''
+  IWEBCHECK: Y
+  CkloggedClientLastLogonDate: '%7Bts%20%272017%2D02%2D12%2019%3A13%3A34%27%7D'
+  visid_incap_150286: jyU6KisPTM2i2rbfVNpI+htdBlgAAAAAQUIPAAAAAAB8AOlBhA6OfHFBMLrp+ucV
+  imbvpjs-dataprovider-params: ?fr&mainType=HOUSE&postalCode=1030&abroad=false&prestige=false&holiday=false&investmentProperty=false
+  CKSECTIONQUERYDATA: buy
+  CFID: Z2gzaxow02uescufgt7mid4s3r3316g36dccgfx5zarj4g4lj0q-76089237
+  CheckCookie: 'yes'
+  CkloggedClientNom: Chivi
+  imbvpjs-sov-adbanner: '0'
+  cookie_warning_accepted: '1'
+  CFTOKEN: Z2gzaxow02uescufgt7mid4s3r3316g36dccgfx5zarj4g4lj0q-24807942
+  imbvpjs-sov-adfocus: '0'
+  ADVERTISINGTAGSERVEUR: 1%2C5%2C11%2C000000%2C8%2C171%2CG%2C1%2C5%2CE%2CCE%2C2%2C000000%2C000000%2CAGE%2C1210%2C145485%2C000000%2C21%2Cbuy%2C1024%2C000000%2C000000%2C32%2Cfalse
+  ONGLETIDCLIENT: '0'
+  imbvpjs-sov-admax: '0'
+headers:
+  Pragma: no-cache
+  Accept-Encoding: gzip, deflate, sdch
+  Accept-Language: en-US,en;q=0.8,nl;q=0.6,fr;q=0.4,ja;q=0.2
+  User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko)
+    Ubuntu Chromium/56.0.2924.76 Chrome/56.0.2924.76 Safari/537.36
+  Accept: '*/*'
+  Referer: http://www.immoweb.be/fr/recherche/maison/a-vendre/bruxelles/arrondissement?minprice=225000&maxprice=315000&minroom=3&page=2
+  X-Requested-With: XMLHttpRequest
+  Connection: keep-alive
+  Cache-Control: no-cache
+filter: "element-by-id:result,html2text:lynx,strip"

@@ -622,6 +622,11 @@ url: http://www.century21.be/besthouse/fr/maison/a-vendre/belgique/-0km/225000-3
 filter: element-by-class:about,html2text:lynx,strip
 ---
 kind: url
+name: Century21homeconsult
+url: http://www.century21.be/homeconsult/fr/maison/a-vendre/belgique/-0km/225000-315000/3_bedrooms/
+filter: element-by-class:about,html2text:lynx,strip
+---
+kind: url
 name: Soho1
 url: http://www.soho1.be/index.php?page=liste&OxySeleOffr=V&OxySelePrix=225000|315000&OxySeleImme=01|Maison&OxySelePrix=&OxySeleGeog=01|BRUXELLES%2019%20COMMUNES%20&%20EXTENSIONS&view=&OxySeleOrdre=PRIX%20DESC,COMM%20ASC,CODE
 cookies:

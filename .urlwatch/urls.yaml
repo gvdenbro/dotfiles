@@ -699,7 +699,7 @@ filter: "immovlan_json,strip"
 ---
 kind: url
 name: ImmoWeb
-url: http://www.immoweb.be/fr/recherche/maison/a-vendre/bruxelles/arrondissement?minprice=225000&maxprice=315000&minroom=3&page=1&ajax=true
+url: http://www.immoweb.be/fr/recherche/maison/a-vendre/bruxelles/arrondissement?minprice=225000&maxprice=315000&minroom=3&page=1&ajax=true&XDISPLAY=gallery
 cookies:
   JSESSIONID: 4B63525F248B249753FAD3F642809075.cfusion
   LANGUAGE: fr
@@ -741,4 +741,4 @@ headers:
   X-Requested-With: XMLHttpRequest
   Connection: keep-alive
   Cache-Control: no-cache
-filter: "element-by-id:result,html2text:lynx,strip"
+filter: "element-by-id:result-vignettes,html2text:lynx,strip"

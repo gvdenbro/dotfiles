@@ -632,57 +632,54 @@ kind: url
 name: ImmoVlan
 url: http://immo.vlan.be/fr/Search/Fetch
 data:
-  isWithGarage: 'false'
-  searchKey: s_0e9b6419392ad45052530fc285dcb244181cfa2d
-  isNewConstruction: 'true'
-  isDisabledFriendly: 'false'
-  isLifeAnnuity: 'true'
-  searchSurfaceFrom: '125'
-  bedroomsFrom: '3'
-  isForSaleHoliday: 'false'
   isForSale: 'true'
-  isModified: 'false'
-  propertyTypeIds: ['11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21',
-    '1']
-  countryId: '318'
-  isNew: 'false'
-  isPublicSale: 'true'
-  isBatch: 'true'
-  sortBy: '0'
-  priceFrom: '225000'
   isHoliday: 'false'
-  isFacade3: 'false'
-  isWithGarden: 'false'
-  isForRent: 'false'
-  isWithFreeWifi: 'false'
-  isFacade2: 'false'
-  countOnly: 'false'
-  isWithTerrace: 'false'
   locations: '[object Object]'
+  propertyTypeIds: ['11', '12', '13', '14', '15', '16', '18', '19', '21', '1']
+  isWithGarage: 'false'
+  countryId: '318'
+  isFacade4: 'false'
+  isLifeAnnuity: 'true'
+  isForRent: 'false'
+  isRecent: 'true'
+  searchKey: s_67e41f7e145f29e861a697f3be613dfe72ffdf9f
+  isNewConstruction: 'true'
+  isWithTerrace: 'false'
+  isWithPool: 'false'
+  isFacade3: 'false'
+  countOnly: 'false'
+  isModified: 'true'
   serializedLocations: Province_0_259_0_Bruxelles
+  listType: List
+  priceFrom: '225000'
+  bedroomsFrom: '3'
   priceTo: '315000'
-  isBabyFriendly: 'false'
+  sortBy: '0'
+  isWithGarden: 'false'
+  isPublicSale: 'true'
+  isForSaleHoliday: 'false'
+  isBatch: 'true'
+  isNew: 'false'
   page: '1'
   isWithPeb: 'false'
-  isFacade4: 'false'
-  listType: List
+  isFacade2: 'false'
+  isDisabledFriendly: 'false'
+  isWithFreeWifi: 'false'
+  isBabyFriendly: 'false'
   isWithFurniture: 'false'
   viewType: List
-  isWithPool: 'false'
-  isRecent: 'false'
 cookies:
-  CookieLastSearchResultListType: List
-  ASP.NET_SessionId: oqhfdvw1yvaaspjjpt1zdw4z
-  lang: fr
-  CookieLastSearchTransactionTypeId: '74'
+  rmg-tracking-cookie: search_immo_buy,2&search_immo_rent,0&date,1488911132974
   CookieLastSearchPriceRangeId: '24'
-  rmg-tracking-cookie: search_immo_buy,2&search_immo_rent,0&date,1488644441523
-  CookieLastSearchMinPrice: '225000'
-  CookieLastSearchPropertyTypeId: '1'
-  CookieLastSearchProvinceId: '259'
   __RequestVerificationToken: s6nwsjJFuRoQ3B_sXcR7XJwfJr-oY-vCX4xN2eSGNg6ql48FT0__LAIntfvp9clsY8RaH7QTmgsM8Uc8LHImeNDPBE41
+  CookieLastSearchProvinceId: '259'
+  lang: fr
+  CookieLastSearchMinPrice: '225000'
+  ASP.NET_SessionId: oqhfdvw1yvaaspjjpt1zdw4z
+  CookieLastSearchPropertyTypeId: '1'
+  CookieLastSearchResultListType: List
+  CookieLastSearchTransactionTypeId: '74'
 headers:
-  Pragma: no-cache
   Origin: http://immo.vlan.be
   Accept-Encoding: gzip, deflate
   Accept-Language: en-US,en;q=0.8,nl;q=0.6,fr;q=0.4,ja;q=0.2
@@ -690,11 +687,10 @@ headers:
     Ubuntu Chromium/56.0.2924.76 Chrome/56.0.2924.76 Safari/537.36
   Content-Type: application/x-www-form-urlencoded; charset=UTF-8
   Accept: '*/*'
-  Cache-Control: no-cache
+  Referer: http://immo.vlan.be/fr/Recherche/Maison/%C3%A0-vendre/Bruxelles/?MinPrice=225000&MaxPrice=315000&MinBedrooms=3&IsProject=Yes&IsBatch=Yes&LifeAnnuity=Yes
   X-Requested-With: XMLHttpRequest
   Connection: keep-alive
-  Referer: http://immo.vlan.be/fr/Recherche/Maison/%C3%A0-vendre/Bruxelles/?MinPrice=225000&MaxPrice=315000&MinBedrooms=3&IsProject=Yes&IsBatch=Yes&LifeAnnuity=Yes
-filter: "formatted_json:List,strip"
+filter: "immovlan_json,strip"
 ---
 kind: url
 name: ImmoWeb

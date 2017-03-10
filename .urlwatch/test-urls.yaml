@@ -1,63 +1,17 @@
 kind: url
-name: ImmoVlan
-url: http://immo.vlan.be/fr/Search/Fetch
-data:
-  isForSale: 'true'
-  isHoliday: 'false'
-  locations: '[object Object]'
-  propertyTypeIds: ['11', '12', '13', '14', '15', '16', '18', '19', '21', '1']
-  isWithGarage: 'false'
-  countryId: '318'
-  isFacade4: 'false'
-  isLifeAnnuity: 'true'
-  isForRent: 'false'
-  isRecent: 'true'
-  searchKey: s_67e41f7e145f29e861a697f3be613dfe72ffdf9f
-  isNewConstruction: 'true'
-  isWithTerrace: 'false'
-  isWithPool: 'false'
-  isFacade3: 'false'
-  countOnly: 'false'
-  isModified: 'true'
-  serializedLocations: Province_0_259_0_Bruxelles
-  listType: List
-  priceFrom: '225000'
-  bedroomsFrom: '3'
-  priceTo: '315000'
-  sortBy: '0'
-  isWithGarden: 'false'
-  isPublicSale: 'true'
-  isForSaleHoliday: 'false'
-  isBatch: 'true'
-  isNew: 'false'
-  page: '1'
-  isWithPeb: 'false'
-  isFacade2: 'false'
-  isDisabledFriendly: 'false'
-  isWithFreeWifi: 'false'
-  isBabyFriendly: 'false'
-  isWithFurniture: 'false'
-  viewType: List
+name: ImmoMagnum
+url: http://www.immomagnum.be/?page=liste&OxySeleOffr=V&OxySeleImme=M|Maison&OxySelePrix=215000|315000&OxySeleGeog=Localization&view=&OxySeleOrdre=PRIX%20ASC,COMM%20ASC,CODE
 cookies:
-  rmg-tracking-cookie: search_immo_buy,2&search_immo_rent,0&date,1488911132974
-  CookieLastSearchPriceRangeId: '24'
-  __RequestVerificationToken: s6nwsjJFuRoQ3B_sXcR7XJwfJr-oY-vCX4xN2eSGNg6ql48FT0__LAIntfvp9clsY8RaH7QTmgsM8Uc8LHImeNDPBE41
-  CookieLastSearchProvinceId: '259'
-  lang: fr
-  CookieLastSearchMinPrice: '225000'
-  ASP.NET_SessionId: oqhfdvw1yvaaspjjpt1zdw4z
-  CookieLastSearchPropertyTypeId: '1'
-  CookieLastSearchResultListType: List
-  CookieLastSearchTransactionTypeId: '74'
+  PHPSESSID: e0032d7700efa3b64c23dc959555a7e5
+  browserupdateorg: pause
 headers:
-  Origin: http://immo.vlan.be
-  Accept-Encoding: gzip, deflate
-  Accept-Language: en-US,en;q=0.8,nl;q=0.6,fr;q=0.4,ja;q=0.2
-  User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko)
-    Ubuntu Chromium/56.0.2924.76 Chrome/56.0.2924.76 Safari/537.36
-  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
-  Accept: '*/*'
-  Referer: http://immo.vlan.be/fr/Recherche/Maison/%C3%A0-vendre/Bruxelles/?MinPrice=225000&MaxPrice=315000&MinBedrooms=3&IsProject=Yes&IsBatch=Yes&LifeAnnuity=Yes
-  X-Requested-With: XMLHttpRequest
-  Connection: keep-alive
-filter: "immovlan_json,strip"
+  Pragma: no-cache
+  Accept-Encoding: gzip, deflate, sdch
+  Accept-Language: en-US,en;q=0.8
+  Upgrade-Insecure-Requests: '1'
+  User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+    like Gecko) Chrome/51.0.2704.103 Safari/537.36
+  Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  Cache-Control: no-cache
+  Proxy-Connection: keep-alive
+filter: "element-by-style:display:block; cursor: pointer; position:relative,html2text:lynx,strip"

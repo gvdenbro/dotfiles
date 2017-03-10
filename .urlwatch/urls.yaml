@@ -742,3 +742,40 @@ headers:
   Connection: keep-alive
   Cache-Control: no-cache
 filter: "element-by-id:result-vignettes,html2text:lynx,strip"
+---
+kind: url
+name: theBridge
+url: http://www.thebridge.be/fr/estates?type=1&category=&category%5B%5D=1&rooms=3&selectMax=315000
+cookies:
+  XSRF-TOKEN: eyJpdiI6IjJXdE9OYlFENE1oQmFIdDNvYmlQTWc9PSIsInZhbHVlIjoibkFJYVZIalZoQ2QzUnlleFh0cFd5ZUVWZHFZcktmeTRSRkZvS1JjSnVWWUFhTkhQeG5JZkZBVmMyNGJLNDdhZVwvbGFtV3VNeDVjdkRWWnc0aUpna09nPT0iLCJtYWMiOiIzZDMyNTAzZmVlMjQyNDk4ZTE2MTBiZjRkZjI2YjEzNDY2NzY4NTExNGZjNzdiZWE5MTRjMWNhN2Q3NDdiMGY2In0%3D
+  laravel_session: eyJpdiI6Ik9vWEdkb2V4Tkg3THk3YU04UG1OYUE9PSIsInZhbHVlIjoiTDErR05xdlBod2U0MWl3c0tyMFpCOVwvUEhVRkkrMHJFYXJWc2tydDA4SWUrSGJpQlU4d0hpS3FOOG9hTjVMV2tDRTQ4R20za29VU0ZYUXA1ekoya093PT0iLCJtYWMiOiJmZjI5MzRjOTUyZWFkYjUxMWU0ZWRlYjU3MTY0ZDE4NDkyZmE3ODI5ZDgwZDE3ZDM4ODFlNWI4ZTYxZmNiZTI0In0%3D
+headers:
+  Pragma: no-cache
+  Accept-Encoding: gzip, deflate, sdch
+  Accept-Language: en-US,en;q=0.8
+  Upgrade-Insecure-Requests: '1'
+  User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+    like Gecko) Chrome/51.0.2704.103 Safari/537.36
+  Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  Cache-Control: no-cache
+  Referer: http://www.thebridge.be/fr/estates?type=1&category=&category%5B%5D=1&rooms=3&selectMax=315000
+  Proxy-Connection: keep-alive
+filter: "element-by-class:uk-width-medium-1-2,html2text:lynx,strip"
+---
+kind: url
+name: ImmoMagnum
+url: http://www.immomagnum.be/?page=liste&OxySeleOffr=V&OxySeleImme=M|Maison&OxySelePrix=215000|315000&OxySeleGeog=Localization&view=&OxySeleOrdre=PRIX%20ASC,COMM%20ASC,CODE
+cookies:
+  PHPSESSID: e0032d7700efa3b64c23dc959555a7e5
+  browserupdateorg: pause
+headers:
+  Pragma: no-cache
+  Accept-Encoding: gzip, deflate, sdch
+  Accept-Language: en-US,en;q=0.8
+  Upgrade-Insecure-Requests: '1'
+  User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+    like Gecko) Chrome/51.0.2704.103 Safari/537.36
+  Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  Cache-Control: no-cache
+  Proxy-Connection: keep-alive
+filter: "element-by-style:display:block; cursor: pointer; position:relative,html2text:lynx,strip"

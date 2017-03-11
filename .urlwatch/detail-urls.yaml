@@ -1,4 +1,19 @@
 kind: url
+name: Rue de Walcourt 97, 1070 ANDERLECHT
+url: http://www.wellianss.com/Web.mvc/fr-be/Detail/3039655?print=true
+cookies: {}
+headers:
+  Accept-Encoding: gzip, deflate, sdch
+  Accept-Language: en-US,en;q=0.8,nl;q=0.6,fr;q=0.4,ja;q=0.2
+  Upgrade-Insecure-Requests: '1'
+  User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko)
+    Ubuntu Chromium/56.0.2924.76 Chrome/56.0.2924.76 Safari/537.36
+  Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  Referer: http://www.evosys.be/Virtual/renier/formulaire.php
+  Connection: keep-alive
+filter: "html2text:lynx,strip"
+---
+kind: url
 name: Rue Victor Rauter 280, Anderlecht
 url: http://www.immomagnum.be/?page=impression&OxySeleClas=170/22216&OxySeleCode=00022216170
 cookies:

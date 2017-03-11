@@ -779,3 +779,60 @@ headers:
   Cache-Control: no-cache
   Proxy-Connection: keep-alive
 filter: "element-by-style:display:block; cursor: pointer; position:relative,html2text:lynx,strip"
+---
+kind: url
+name: Formato
+url: http://www.formato.be/Web.mvc/fr-be/List1?pageNumber=0&isAjaxRequest=True
+data:
+  X-Requested-With: XMLHttpRequest
+  Price: 225000,315000
+  CategoryID: '1'
+  City: '0'
+  SearchRequest: 'true'
+cookies:
+  ASP.NET_SessionId: bq4kcehl3zfareylslg2xxbb
+  AspxAutoDetectCookieSupport: '1'
+headers:
+  Origin: http://www.formato.be
+  Accept-Encoding: gzip, deflate
+  Accept-Language: en-US,en;q=0.8,nl;q=0.6,fr;q=0.4,ja;q=0.2
+  User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko)
+    Ubuntu Chromium/56.0.2924.76 Chrome/56.0.2924.76 Safari/537.36
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Accept: '*/*'
+  Referer: http://www.formato.be/Web.mvc/fr-be/List1
+  X-Requested-With: XMLHttpRequest, XMLHttpRequest
+  Connection: keep-alive
+filter: "element-by-id:listItemContainer,html2text:lynx,strip"
+---
+kind: url
+name: wellianss
+url: http://www.wellianss.com/Web.mvc/fr-be/List3?pageNumber=0&isAjaxRequest=True
+data:
+  InvestmentEstate: 'false'
+  CategoryID: '1'
+  PurposeID: '1'
+  RegionID: '0'
+  ZipListValue: '1000,1030,1040,1050,1060,1070,1080,1081,1082,1083,1090,1140,1150,1160,1170,1180,1190,1200,1210'
+  PriceFrom: '225000'
+  PriceTo: '315000'
+  SearchRequest: 'true'
+  Furnished: 'false'
+  Purpose1: 'on'
+  Rooms: '0'
+  X-Requested-With: XMLHttpRequest
+cookies:
+  ASP.NET_SessionId: 33zet4knkhmgvxla2pbn5gom
+  AspxAutoDetectCookieSupport: '1'
+headers:
+  Origin: http://www.wellianss.com
+  Accept-Encoding: gzip, deflate
+  Accept-Language: en-US,en;q=0.8,nl;q=0.6,fr;q=0.4,ja;q=0.2
+  User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko)
+    Ubuntu Chromium/56.0.2924.76 Chrome/56.0.2924.76 Safari/537.36
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Accept: '*/*'
+  Referer: http://www.wellianss.com/Web.mvc/fr-be/List3
+  X-Requested-With: XMLHttpRequest, XMLHttpRequest
+  Connection: keep-alive
+filter: "element-by-class:mozaic-item,html2text:lynx,strip"

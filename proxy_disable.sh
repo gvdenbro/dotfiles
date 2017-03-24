@@ -12,6 +12,18 @@ else
     echo -e "Not commenting $bashrc proxy settings because file doesn't exist"
 fi
 
+# comment /etc/environment
+envconf="/etc/environment"
+echo -e "Preparing to comment $envconf proxy settings"
+if [ -e "$envconf" ]; then
+    echo -e "Commenting $envconf proxy settings"
+    sed -i '/^\(http\|https\|ftp\|no\)_proxy/s/^/#/g' "$envconf"
+    sed -i '/^\(HTTP\|HTTPS\|FTP\|NO\)_PROXY/s/^/#/g' "$envconf"
+    echo -e "Finished commenting $envconf proxy settings"
+else
+    echo -e "Not commenting $envconf proxy settings because file doesn't exist"
+fi
+
 # comment apt conf proxy settings
 aptconf="/etc/apt/apt.conf"
 echo -e "Preparing to comment $aptconf proxy settings"

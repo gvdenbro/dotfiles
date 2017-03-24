@@ -34,3 +34,7 @@ if [ -e "$aptconf" ]; then
 else
     echo -e "Not commenting $aptconf proxy settings because file doesn't exist"
 fi
+
+# gsettings proxy settings
+echo -e "Preparing to disable gsettings proxy settings"
+gsettings set org.gnome.system.proxy mode "none"

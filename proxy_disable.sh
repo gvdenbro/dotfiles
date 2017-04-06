@@ -17,8 +17,8 @@ envconf="/etc/environment"
 echo -e "Preparing to comment $envconf proxy settings"
 if [ -e "$envconf" ]; then
     echo -e "Commenting $envconf proxy settings"
-    sed -i '/^\(http\|https\|ftp\|no\)_proxy/s/^/#/g' "$envconf"
-    sed -i '/^\(HTTP\|HTTPS\|FTP\|NO\)_PROXY/s/^/#/g' "$envconf"
+    sudo sed -i '/^\(http\|https\|ftp\|no\)_proxy/s/^/#/g' "$envconf"
+    sudo sed -i '/^\(HTTP\|HTTPS\|FTP\|NO\)_PROXY/s/^/#/g' "$envconf"
     echo -e "Finished commenting $envconf proxy settings"
 else
     echo -e "Not commenting $envconf proxy settings because file doesn't exist"
@@ -29,7 +29,7 @@ aptconf="/etc/apt/apt.conf"
 echo -e "Preparing to comment $aptconf proxy settings"
 if [ -e "$aptconf" ]; then
     echo -e "Commenting $aptconf proxy settings"
-    sed -i '/Proxy/s/^/#/g' "$aptconf"
+    sudo sed -i '/Proxy/s/^/#/g' "$aptconf"
     echo -e "Finished commenting $aptconf proxy settings"
 else
     echo -e "Not commenting $aptconf proxy settings because file doesn't exist"
@@ -38,3 +38,15 @@ fi
 # gsettings proxy settings
 echo -e "Preparing to disable gsettings proxy settings"
 gsettings set org.gnome.system.proxy mode "none"
+
+# comment ~/.gradle/gradle.properties
+gradleprops="$HOME/.gradle/gradle.properties"
+echo -e "Preparing to comment $gradleprops proxy settings"
+if [ -e "$gradleprops" ]; then
+    echo -e "Commenting $gradleprops proxy settings"
+    sed -i '/^systemProp\.http\.\(proxyHost\|proxyPort\|proxyUser\|proxyPassword\|nonProxyHosts\)/s/^/#/g' "$gradleprops"
+    sed -i '/^systemProp\.https\.\(proxyHost\|proxyPort\|proxyUser\|proxyPassword\|nonProxyHosts\)/s/^/#/g' "$gradleprops"
+    echo -e "Finished commenting $gradleprops proxy settings"
+else
+    echo -e "Not commenting $gradleprops proxy settings because file doesn't exist"
+fi

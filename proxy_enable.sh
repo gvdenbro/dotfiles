@@ -38,3 +38,15 @@ fi
 # gsettings proxy settings
 echo -e "Preparing to enable gsettings proxy settings"
 gsettings set org.gnome.system.proxy mode "manual"
+
+# uncomment ~/.gradle/gradle.properties
+gradleprops="$HOME/.gradle/gradle.properties"
+echo -e "Preparing to uncomment $gradleprops proxy settings"
+if [ -e "$gradleprops" ]; then
+    echo -e "Uncommenting $gradleprops proxy settings"
+    sed -i '/^#systemProp\.http\.\(proxyHost\|proxyPort\|proxyUser\|proxyPassword\|nonProxyHosts\)/s/^#//g' "$gradleprops"
+    sed -i '/^#systemProp\.https\.\(proxyHost\|proxyPort\|proxyUser\|proxyPassword\|nonProxyHosts\)/s/^#//g' "$gradleprops"
+    echo -e "Finished uncommenting $gradleprops proxy settings"
+else
+    echo -e "Not uncommenting $gradleprops proxy settings because file doesn't exist"
+fi

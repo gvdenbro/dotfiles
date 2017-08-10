@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 if [ -d "/media/greg/corsair" ]; then
     echo "Disk /media/greg/corsair is mounted"
-    rsync -av /home/greg/Documents /home/greg/ebooks /home/greg/Music /home/greg/Pictures /home/greg/Desktop /media/greg/corsair/backup/
+    rsync -av /home/greg/Documents /home/greg/ebooks /home/greg/Music /home/greg/Pictures /home/greg/Desktop /media/greg/corsair/backup/ --delete
     exit 0
 else
     echo "Disk /media/greg/corsair is missing"

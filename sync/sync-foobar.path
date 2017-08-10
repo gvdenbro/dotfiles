@@ -3,3 +3,5 @@ Description=SyncFoobar
 [Path]
 PathModified=/dev/disk/
 PathExists=/media/greg/corsair
+[Install]
+WantedBy=multi-user.target

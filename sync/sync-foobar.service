@@ -3,5 +3,3 @@ Description=SyncFoobar
 [Service]
 ExecStartPre=/bin/sleep 10s
 ExecStart=/home/greg/.local/bin/sync-foobar.sh
-RestartSec=5s
-Restart=on-success

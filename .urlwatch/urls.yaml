@@ -699,49 +699,56 @@ filter: "immovlan_json,strip"
 ---
 kind: url
 name: ImmoWeb
-url: http://www.immoweb.be/fr/recherche/maison/a-vendre/bruxelles/arrondissement?minprice=225000&maxprice=315000&minroom=3&page=1&ajax=true&XDISPLAY=gallery
+url: https://www.immoweb.be/fr/recherche/maison/a-vendre?zips=1850,1831,1800,1830,1930,1860,1731,1970&districts=21&minprice=225000&maxprice=315000&minroom=3&ajax=true
 cookies:
-  JSESSIONID: 4B63525F248B249753FAD3F642809075.cfusion
-  LANGUAGE: fr
-  NPI: 37%2CParVisit%2CP%2C18%2D10%2D2016%2C78
-  CKVISITCOUNT: '0'
-  imbvpjs-sov-adside: '0'
-  REFRESH_TOKEN: fe248dc7%2D9cd8%2D4933%2Dbc56%2D0c5ba4e03838
-  CkloggedClientPrenom: Team
-  COOKIEVISIBILITY: 1%20%2C%20B%20%2C%201%20%2C1030%2C%20N
-  CkloggedClientId: '2223319'
-  imbvpjs-sov-adimsxl: '0'
-  ACCESS_TOKEN: 9a66b025%2D2129%2D4181%2Db719%2D8de3d44933f3
-  CKVISITDATELAST: '201703070811'
-  incap_ses_282_150286: P4LdT70kCXGIoOD1593pAy5UvlgAAAAAhc5HwUs/ZsDjSuOMcGHVDg==
-  CKTYPEBIENVISITE: ''
-  IWEBCHECK: Y
-  CkloggedClientLastLogonDate: '%7Bts%20%272017%2D02%2D12%2019%3A13%3A34%27%7D'
-  visid_incap_150286: jyU6KisPTM2i2rbfVNpI+htdBlgAAAAAQUIPAAAAAAB8AOlBhA6OfHFBMLrp+ucV
-  imbvpjs-dataprovider-params: ?fr&mainType=HOUSE&postalCode=1030&abroad=false&prestige=false&holiday=false&investmentProperty=false
+  incap_ses_449_150286: uUqVJJPyeBBoO/V8dys7BvywFloAAAAAxNei3XV5vuv2+8JkuB4fGw==
+  NPI: 37%2CParVisit%2CP%2C23%2D11%2D2017%2C1
+  __utmz: 118884753.1511436551.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
   CKSECTIONQUERYDATA: buy
-  CFID: Z2gzaxow02uescufgt7mid4s3r3316g36dccgfx5zarj4g4lj0q-76089237
-  CheckCookie: 'yes'
-  CkloggedClientNom: Chivi
-  imbvpjs-sov-adbanner: '0'
-  cookie_warning_accepted: '1'
-  CFTOKEN: Z2gzaxow02uescufgt7mid4s3r3316g36dccgfx5zarj4g4lj0q-24807942
+  CFID: '102102780'
+  ADVERTISINGTAGSERVEUR: 1%2C4%2C11%2C000000%2C8%2C72%2CG%2C1%2C6%2CB%2CAS%2C000000%2C000000%2C000000%2CAGE%2C1070%2C76092%2C000000%2C21%2Cbuy%2C1024%2C000000%2C000000%2C31%2Cfalse
+  LASTSEARCHTRANSACTIONTYPE: '1'
+  imbvpjs-dataprovider-params: ?fr&mainType=HOUSE&postalCode=1850&abroad=false&prestige=false&holiday=false&investmentProperty=false&transactionType=BUY
+  cX_G: cx%3A2n7uojsmvafks12n526t9fadu4%3A1zgm4bliig9xq
+  imbvpjs-sov-adside: '1'
+  cX_S: jaceaqxtnot0rfz3
+  visid_incap_150286: fhrB4cgoReGs83/pT4ShN/ywFloAAAAAQUIPAAAAAACdpeeB/+UMFb4wb5Cd1rNE
+  bm_sample_frequency: '100'
   imbvpjs-sov-adfocus: '0'
-  ADVERTISINGTAGSERVEUR: 1%2C5%2C11%2C000000%2C8%2C171%2CG%2C1%2C5%2CE%2CCE%2C2%2C000000%2C000000%2CAGE%2C1210%2C145485%2C000000%2C21%2Cbuy%2C1024%2C000000%2C000000%2C32%2Cfalse
+  _tty: '1836290701321272462'
+  CKVISITCOUNT: '1'
+  cookie_warning_accepted: '1'
   ONGLETIDCLIENT: '0'
+  CFTOKEN: '26264388'
+  __utma: 118884753.1884309127.1511436551.1511436551.1511436551.1
+  __utmt_UA-1469439-1: '1'
+  CKTYPEBIENVISITE: 0116%3D1070%2F1
+  __utmb: 118884753.23.9.1511437381507
+  CKVISITDATELAST: '201711231301'
+  __gfp_64b: n6fAjnNmyhL_Ct9SLgAtJZkLiQDZgPkcHdRxqz1y0LT.p7
+  imbvpjs-sov-adbanner: '0'
+  bm_daily_unique: 'true'
+  IWEBCHECK: Y
+  pl_uuid: 2bcad698
+  bm_weekly_unique: 'true'
+  LANGUAGE: fr
+  COOKIEVISIBILITY: 1%2CB%2C1%2C1850%2CN
   imbvpjs-sov-admax: '0'
+  JSESSIONID: 186B17E9AC933EB80C943A22D98A6B53.cfusion
+  __utmc: '118884753'
+  imbvpjs-sov-adimsxl: '0'
+  bm_monthly_unique: 'true'
+  cX_P: jaceaqxv51fnspk1
+  bm_last_load_status: NOT_BLOCKING
 headers:
-  Pragma: no-cache
-  Accept-Encoding: gzip, deflate, sdch
-  Accept-Language: en-US,en;q=0.8,nl;q=0.6,fr;q=0.4,ja;q=0.2
+  Accept-Encoding: gzip, deflate, br
+  Accept-Language: en-US,en;q=0.9
+  Upgrade-Insecure-Requests: '1'
   User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko)
-    Ubuntu Chromium/56.0.2924.76 Chrome/56.0.2924.76 Safari/537.36
-  Accept: '*/*'
-  Referer: http://www.immoweb.be/fr/recherche/maison/a-vendre/bruxelles/arrondissement?minprice=225000&maxprice=315000&minroom=3&page=2
-  X-Requested-With: XMLHttpRequest
+    Chrome/62.0.3202.94 Safari/537.36
+  Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
   Connection: keep-alive
-  Cache-Control: no-cache
-filter: "element-by-id:result-vignettes,html2text:lynx,strip"
+filter: "element-by-class:result-xl,html2text:lynx,strip"
 ---
 kind: url
 name: theBridge

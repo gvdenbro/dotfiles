@@ -9,11 +9,6 @@ url: http://www.espaceimmobrussels.be/a-vendre/Type-01%7CMaison/Prix-225000%7C31
 filter: element-by-class:cp-bien--content,html2text:lynx,strip
 ---
 kind: url
-name: SybImmo
-url: http://www.sybimmo.be/nl/te-koop/woningen/?type=5&city=Schaarbeek%2CSint-Agatha-Berchem%2CSint-Gillis%2CSint-Jans-Molenbeek&price-range=225000+-+315000
-filter: element-by-class:imgExt,html2text:lynx,strip
----
-kind: url
 name: MacNash
 url: http://www.macnash.com/ui/propertyitems.aspx?ZPTID=3&TT=0&PMin=225000&PMax=315000&RMin=3&Search=1000,1030,1040,1050,1060,1070,1080,1081,1082,1083,1090,1140,1150,1160,1170,1180,1190,1200,1210
 filter: element-by-class:caption,html2text:lynx,strip
@@ -25,7 +20,7 @@ filter: element-by-class:result-estate-content,html2text:lynx,strip
 ---
 kind: url
 name: Era
-url: https://www.era.be/nl/te-koop/brussel/huis?muni-brussel=brussel&price=225000+315000&rooms=3+4+5+6
+url: https://www.era.be/nl/te-koop/brussel/huis?muni-brussel=brussel&price=225000+315000&rooms=3+4+5+6&muni-machelen=machelen&muni-vilvoorde=vilvoorde&muni-zaventem=zaventem&muni-grimbergen=grimbergen&towns=diegem
 filter: element-by-class:group-main,html2text:lynx,strip
 ---
 kind: url
@@ -39,11 +34,6 @@ data:
 filter: element-by-class:property-info,html2text:lynx,strip
 ---
 kind: url
-name: ImmoGrootLeeuw
-url: http://www.immogrootleeuw.be/fr/a-vendre/?type=5&city=Anderlecht%2CGroot-Bijgaarden%2CJette&price-range=225000+-+315000
-filter: element-by-class:imgExt,html2text:lynx,strip
----
-kind: url
 name: Panasi
 url: http://www.panasi.be/fr/a-vendre/maisons?view=list&page=1&ptype=1&pricemin=225000&pricemax=315000
 filter: element-by-class:desc,html2text:lynx,strip
@@ -52,11 +42,6 @@ kind: url
 name: NewTendances
 url: http://www.newtendances.be/index.php?action=list&ctypmandatmeta=v&reference=&categories%5B%5D=Maison&chambre_min=3&villes%5B%5D=Brussel+21&villes%5B%5D=Bruxelles++1&villes%5B%5D=Bruxelles++2&villes%5B%5D=Evere&villes%5B%5D=Forest&villes%5B%5D=Ixelles&villes%5B%5D=Koekelberg&villes%5B%5D=Molenbeek-Saint-Jean&villes%5B%5D=Saint+Josse&villes%5B%5D=Saint-Gilles&villes%5B%5D=Schaerbeek&villes%5B%5D=Watermael-Boitsfort&villes%5B%5D=Woluw%C3%A9-Saint-Pierre&prix_min=225000&prix_max=315000
 filter: element-by-class:item-description alt,html2text:lynx,strip
----
-kind: url
-name: Century21
-url: http://www.century21.be/en/house/for-sale/belgium/brussels/-0km/225000-315000/3_bedrooms/
-filter: element-by-class:about,html2text:lynx,strip
 ---
 kind: url
 name: Brikman
@@ -205,7 +190,7 @@ cookies : {"AspxAutoDetectCookieSupport": "1"}
 kind: url
 name: VieImmo
 url: http://www.vie-immo.be/index.php?action=list&ctypmandatmeta=v&reference=&categories%5B%5D=Maison&chambre_min=&prix_max=315000&prix_min=225000
-filter: 'element-by-class:four columns portfolio-item,html2text:lynx,strip'
+filter: 'element-by-class:eight shop columns,html2text:lynx,strip'
 ---
 kind: url
 name: BHImmo
@@ -223,17 +208,6 @@ url: http://www.larockimmo.be/en-GB/List/16?SelectedCities=1000,1030,1040,1050,1
 filter: 'element-by-class:estate-thumb,html2text:lynx,strip'
 cookies: {"__RequestVerificationToken": "KZKQBXv0tc573QBoj7sgUjjVvVr4JCPTk6uIZ9ut-TgoGdRuVFIcuPlkxhaZIbmi6vJeIj2Eil7U0GbUff2_KICljfMIdW4-iaGIYmyDL681", "_culture": "en-GB"}
 data: {"ListID": "16", "SearchType": "ToSell", "SelectedType": "1", "MinPrice": "225000", "MaxPrice": "315000", "__RequestVerificationToken": "NbVgLhpunZeoQQLbb2GsruyikGwey3SBNyL8JUd8zJGydBebhJkFbE6dUBbi42a08n1GialpuIlDCMxtQuM0FIdgo1wXv8lRYPeva6tC9uA1"}
----
-kind: url
-name: Trior
-url: http://www.trior.be/Biens-immobiliers/Recherche/A-vendre
-filter: 'element-by-class:contour,html2text:lynx,strip'
-data: {"type": "1", "tabzip": "1000/1030/1040/1050/1060/1070/1080/1081/1082/1083/1090/1140/1150/1160/1170/1180/1190/1200/1210/", "prixMin": "225000", "prixMax":"315000"}
----
-kind: url
-name: JetImmo
-url: http://www.jetimmo.eu/fr/vente.php?OxySeleOffr=V&OxySeleImme=01&lang=FR&OxySelePrix=225000%7C315000
-filter: 'element-by-class:ventept,html2text:lynx,strip'
 ---
 kind: url
 name: EuroHouse
@@ -567,64 +541,9 @@ cookies:
 filter: "element-by-id:listItemContainer,html2text:lynx,strip"
 ---
 kind: url
-name: Century21Action
-url: http://www.century21.be/action-schaerbeek/fr/maison/a-vendre/belgique/-0km/225000-315000/3_bedrooms/
-filter: element-by-class:about,html2text:lynx,strip
----
-kind: url
-name: Century21Agimmo
-url: http://www.century21.be/groupagimmo/fr/maison/a-vendre/belgique/-0km/225000-315000/3_bedrooms/
-filter: element-by-class:about,html2text:lynx,strip
----
-kind: url
 name: immorenier
 url: http://www.evosys.be/Virtual/renier/liste.php?OxySeleOffr%5B%5D=V&OxySeleImme%5B%5D=00%2C13%2C14%2CBREND&OxySeleOrdre=PRIX+ASC%2C+COMM+ASC
 filter: element-by-class:ContenuDiv,html2text:lynx,strip
----
-kind: url
-name: Century21Abitat
-url: http://www.century21.be/abitat/fr/maison/a-vendre/belgique/-0km/225000-315000/3_bedrooms/
-filter: element-by-class:about,html2text:lynx,strip
----
-kind: url
-name: Century21Invest
-url: http://www.century21.be/invest/fr/maison/a-vendre/belgique/-0km/225000-315000/3_bedrooms/
-filter: element-by-class:about,html2text:lynx,strip
----
-kind: url
-name: Century21cinquantenaire
-url: http://www.century21.be/cinquantenaire/fr/maison/a-vendre/belgique/-0km/225000-315000/3_bedrooms/
-filter: element-by-class:about,html2text:lynx,strip
----
-kind: url
-name: Century21boondael
-url: http://www.century21.be/boondael/fr/maison/a-vendre/belgique/-0km/225000-315000/3_bedrooms/
-filter: element-by-class:about,html2text:lynx,strip
----
-kind: url
-name: Century21miroir
-url: http://www.century21.be/miroir-jette/fr/maison/a-vendre/belgique/-0km/225000-315000/3_bedrooms/
-filter: element-by-class:about,html2text:lynx,strip
----
-kind: url
-name: Century21city
-url: http://www.century21.be/city/fr/maison/a-vendre/belgique/-0km/225000-315000/3_bedrooms/
-filter: element-by-class:about,html2text:lynx,strip
----
-kind: url
-name: Century21miroir-koekelberg
-url: http://www.century21.be/miroir-koekelberg/fr/maison/a-vendre/belgique/-0km/225000-315000/3_bedrooms/
-filter: element-by-class:about,html2text:lynx,strip
----
-kind: url
-name: Century21besthouse
-url: http://www.century21.be/besthouse/fr/maison/a-vendre/belgique/-0km/225000-315000/3_bedrooms/
-filter: element-by-class:about,html2text:lynx,strip
----
-kind: url
-name: Century21homeconsult
-url: http://www.century21.be/homeconsult/fr/maison/a-vendre/belgique/-0km/225000-315000/3_bedrooms/
-filter: element-by-class:about,html2text:lynx,strip
 ---
 kind: url
 name: Soho1

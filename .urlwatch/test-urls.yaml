@@ -1,15 +1,54 @@
 kind: url
-name: Rue Victor Rauter 280, Anderlecht
-url: http://www.immomagnum.be/?page=impression&OxySeleClas=170/22216&OxySeleCode=00022216170
-cookies:
-  PHPSESSID: d0ef5e9b7558428c3ed40e1939d2acda
+name: ImmoVlan
+url: https://immo.vlan.be/fr/Search/Fetch
+data:
+  viewType: List
+  sortBy: '0'
+  priceFrom: '225000'
+  priceTo: '325000'
+  bedroomsFrom: '3'
+  propertyTypeIds: ['11', '12', '13', '14', '16', '18', '20', '21', '1']
+  isForSale: 'true'
+  isPublicSale: 'true'
+  isLifeAnnuity: 'true'
+  isNewConstruction: 'true'
+  isBatch: 'true'
+  isForRent: 'false'
+  isHoliday: 'false'
+  isForSaleHoliday: 'false'
+  isFacade2: 'false'
+  isFacade3: 'false'
+  isFacade4: 'false'
+  isRecent: 'false'
+  isModified: 'false'
+  isNew: 'false'
+  isWithGarage: 'false'
+  isWithGarden: 'false'
+  isWithPool: 'false'
+  isWithFurniture: 'false'
+  isWithPeb: 'false'
+  isWithTerrace: 'false'
+  isWithFreeWifi: 'false'
+  isBabyFriendly: 'false'
+  isDisabledFriendly: 'false'
+  countryId: '318'
+  countOnly: 'false'
+  page: '1'
+  serializedLocations: [City_8878_0_260_0_Diegem  (1831), "CityGroup_0_10794_260_0_Vilvorde\
+      \  (1800) +Localit\xE9s", "CityGroup_0_9208_260_0_Grimbergen  (1850) +Localit\xE9\
+      s", "CityGroup_0_11004_260_0_Zaventem  (1930) +Localit\xE9s", Province_0_0_259_0_Bruxelles]
+  listType: List
+cookies: {}
 headers:
-  Accept-Encoding: gzip, deflate, sdch
-  Accept-Language: en-US,en;q=0.8,nl;q=0.6,fr;q=0.4,ja;q=0.2
-  Upgrade-Insecure-Requests: '1'
-  User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko)
-    Ubuntu Chromium/56.0.2924.76 Chrome/56.0.2924.76 Safari/537.36
-  Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-  Referer: http://www.immomagnum.be/?page=fiche&OxySeleCode=00022216170
+  Host: immo.vlan.be
+  User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/57.0
+  Accept: '*/*'
+  Accept-Language: en-US,en;q=0.5
+  Accept-Encoding: gzip, deflate, br
+  Referer: https://immo.vlan.be/fr/Recherche/Maison/TOUS/?city=(1800-Vilvorde)-(1831-Diegem)-(1800-Peutie)-(1852-Beigem)-(1850-Grimbergen)-(1851-Humbeek)-(1853-Strombeek-Bever)&country=Belgique&propertysubtype=(Maison)-(Villa)-(Bungalow)-(Chalet)-(Fermette)-(Maison-de-ma%C3%AEtre)-(Ch%C3%A2teau)-(Immeuble-mixte)&transactiontype=(%C3%A0-vendre)-(en-vente-publique)&SortOrder=DefaultAscending&MinPrice=225000&MaxPrice=325000&MinBedrooms=3&IsProject=Yes&IsBatch=Yes&LifeAnnuity=Yes
+  Content-Type: application/x-www-form-urlencoded
+  X-Requested-With: XMLHttpRequest
+  Content-Length: '929'
   Connection: keep-alive
-filter: "html2text:lynx,strip"
+  DNT: '1'
+filter: "immovlan_json,strip"

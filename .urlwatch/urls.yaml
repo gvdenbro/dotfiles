@@ -554,111 +554,62 @@ filter: "element-by-class:list-item col-md-3 col-sm-4 col-xs-12 ,html2text:lynx,
 ---
 kind: url
 name: ImmoVlan
-url: http://immo.vlan.be/fr/Search/Fetch
+url: https://immo.vlan.be/fr/Search/Fetch
 data:
-  isForSale: 'true'
-  isHoliday: 'false'
-  locations: '[object Object]'
-  propertyTypeIds: ['11', '12', '13', '14', '15', '16', '18', '19', '21', '1']
-  isWithGarage: 'false'
-  countryId: '318'
-  isFacade4: 'false'
-  isLifeAnnuity: 'true'
-  isForRent: 'false'
-  isRecent: 'true'
-  searchKey: s_67e41f7e145f29e861a697f3be613dfe72ffdf9f
-  isNewConstruction: 'true'
-  isWithTerrace: 'false'
-  isWithPool: 'false'
-  isFacade3: 'false'
-  countOnly: 'false'
-  isModified: 'true'
-  serializedLocations: Province_0_259_0_Bruxelles
-  listType: List
-  priceFrom: '225000'
-  bedroomsFrom: '3'
-  priceTo: '315000'
+  viewType: List
   sortBy: '0'
-  isWithGarden: 'false'
+  priceFrom: '225000'
+  priceTo: '325000'
+  bedroomsFrom: '3'
+  propertyTypeIds: ['11', '12', '13', '14', '16', '18', '20', '21', '1']
+  isForSale: 'true'
   isPublicSale: 'true'
-  isForSaleHoliday: 'false'
+  isLifeAnnuity: 'true'
+  isNewConstruction: 'true'
   isBatch: 'true'
-  isNew: 'false'
-  page: '1'
-  isWithPeb: 'false'
+  isForRent: 'false'
+  isHoliday: 'false'
+  isForSaleHoliday: 'false'
   isFacade2: 'false'
-  isDisabledFriendly: 'false'
+  isFacade3: 'false'
+  isFacade4: 'false'
+  isRecent: 'false'
+  isModified: 'false'
+  isNew: 'false'
+  isWithGarage: 'false'
+  isWithGarden: 'false'
+  isWithPool: 'false'
+  isWithFurniture: 'false'
+  isWithPeb: 'false'
+  isWithTerrace: 'false'
   isWithFreeWifi: 'false'
   isBabyFriendly: 'false'
-  isWithFurniture: 'false'
-  viewType: List
-cookies:
-  rmg-tracking-cookie: search_immo_buy,2&search_immo_rent,0&date,1488911132974
-  CookieLastSearchPriceRangeId: '24'
-  __RequestVerificationToken: s6nwsjJFuRoQ3B_sXcR7XJwfJr-oY-vCX4xN2eSGNg6ql48FT0__LAIntfvp9clsY8RaH7QTmgsM8Uc8LHImeNDPBE41
-  CookieLastSearchProvinceId: '259'
-  lang: fr
-  CookieLastSearchMinPrice: '225000'
-  ASP.NET_SessionId: oqhfdvw1yvaaspjjpt1zdw4z
-  CookieLastSearchPropertyTypeId: '1'
-  CookieLastSearchResultListType: List
-  CookieLastSearchTransactionTypeId: '74'
+  isDisabledFriendly: 'false'
+  countryId: '318'
+  countOnly: 'false'
+  page: '1'
+  serializedLocations: [City_8878_0_260_0_Diegem  (1831), "CityGroup_0_10794_260_0_Vilvorde\
+      \  (1800) +Localit\xE9s", "CityGroup_0_9208_260_0_Grimbergen  (1850) +Localit\xE9\
+      s", "CityGroup_0_11004_260_0_Zaventem  (1930) +Localit\xE9s", Province_0_0_259_0_Bruxelles]
+  listType: List
+cookies: {}
 headers:
-  Origin: http://immo.vlan.be
-  Accept-Encoding: gzip, deflate
-  Accept-Language: en-US,en;q=0.8,nl;q=0.6,fr;q=0.4,ja;q=0.2
-  User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko)
-    Ubuntu Chromium/56.0.2924.76 Chrome/56.0.2924.76 Safari/537.36
-  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Host: immo.vlan.be
+  User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/57.0
   Accept: '*/*'
-  Referer: http://immo.vlan.be/fr/Recherche/Maison/%C3%A0-vendre/Bruxelles/?MinPrice=225000&MaxPrice=315000&MinBedrooms=3&IsProject=Yes&IsBatch=Yes&LifeAnnuity=Yes
+  Accept-Language: en-US,en;q=0.5
+  Accept-Encoding: gzip, deflate, br
+  Referer: https://immo.vlan.be/fr/Recherche/Maison/TOUS/?city=(1800-Vilvorde)-(1831-Diegem)-(1800-Peutie)-(1852-Beigem)-(1850-Grimbergen)-(1851-Humbeek)-(1853-Strombeek-Bever)&country=Belgique&propertysubtype=(Maison)-(Villa)-(Bungalow)-(Chalet)-(Fermette)-(Maison-de-ma%C3%AEtre)-(Ch%C3%A2teau)-(Immeuble-mixte)&transactiontype=(%C3%A0-vendre)-(en-vente-publique)&SortOrder=DefaultAscending&MinPrice=225000&MaxPrice=325000&MinBedrooms=3&IsProject=Yes&IsBatch=Yes&LifeAnnuity=Yes
+  Content-Type: application/x-www-form-urlencoded
   X-Requested-With: XMLHttpRequest
+  Content-Length: '929'
   Connection: keep-alive
+  DNT: '1'
 filter: "immovlan_json,strip"
 ---
 kind: url
 name: ImmoWeb
 url: https://www.immoweb.be/fr/recherche/maison/a-vendre?zips=1850,1831,1800,1830,1930,1860,1731,1970&districts=21&minprice=225000&maxprice=315000&minroom=3&ajax=true
-cookies:
-  incap_ses_449_150286: uUqVJJPyeBBoO/V8dys7BvywFloAAAAAxNei3XV5vuv2+8JkuB4fGw==
-  NPI: 37%2CParVisit%2CP%2C23%2D11%2D2017%2C1
-  __utmz: 118884753.1511436551.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
-  CKSECTIONQUERYDATA: buy
-  CFID: '102102780'
-  ADVERTISINGTAGSERVEUR: 1%2C4%2C11%2C000000%2C8%2C72%2CG%2C1%2C6%2CB%2CAS%2C000000%2C000000%2C000000%2CAGE%2C1070%2C76092%2C000000%2C21%2Cbuy%2C1024%2C000000%2C000000%2C31%2Cfalse
-  LASTSEARCHTRANSACTIONTYPE: '1'
-  imbvpjs-dataprovider-params: ?fr&mainType=HOUSE&postalCode=1850&abroad=false&prestige=false&holiday=false&investmentProperty=false&transactionType=BUY
-  cX_G: cx%3A2n7uojsmvafks12n526t9fadu4%3A1zgm4bliig9xq
-  imbvpjs-sov-adside: '1'
-  cX_S: jaceaqxtnot0rfz3
-  visid_incap_150286: fhrB4cgoReGs83/pT4ShN/ywFloAAAAAQUIPAAAAAACdpeeB/+UMFb4wb5Cd1rNE
-  bm_sample_frequency: '100'
-  imbvpjs-sov-adfocus: '0'
-  _tty: '1836290701321272462'
-  CKVISITCOUNT: '1'
-  cookie_warning_accepted: '1'
-  ONGLETIDCLIENT: '0'
-  CFTOKEN: '26264388'
-  __utma: 118884753.1884309127.1511436551.1511436551.1511436551.1
-  __utmt_UA-1469439-1: '1'
-  CKTYPEBIENVISITE: 0116%3D1070%2F1
-  __utmb: 118884753.23.9.1511437381507
-  CKVISITDATELAST: '201711231301'
-  __gfp_64b: n6fAjnNmyhL_Ct9SLgAtJZkLiQDZgPkcHdRxqz1y0LT.p7
-  imbvpjs-sov-adbanner: '0'
-  bm_daily_unique: 'true'
-  IWEBCHECK: Y
-  pl_uuid: 2bcad698
-  bm_weekly_unique: 'true'
-  LANGUAGE: fr
-  COOKIEVISIBILITY: 1%2CB%2C1%2C1850%2CN
-  imbvpjs-sov-admax: '0'
-  JSESSIONID: 186B17E9AC933EB80C943A22D98A6B53.cfusion
-  __utmc: '118884753'
-  imbvpjs-sov-adimsxl: '0'
-  bm_monthly_unique: 'true'
-  cX_P: jaceaqxv51fnspk1
-  bm_last_load_status: NOT_BLOCKING
 headers:
   Accept-Encoding: gzip, deflate, br
   Accept-Language: en-US,en;q=0.9

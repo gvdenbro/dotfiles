@@ -43,5 +43,5 @@ report:
     enabled: true
   text:
     details: true
-    footer: false
+    footer: true
     line_length: 20

@@ -61,31 +61,6 @@ url: https://www.pajota.be/nl/te-koop/woningen/3-kamers/min-225000-euro/max-3150
 filter: element-by-class:marks,html2text:lynx,strip
 ---
 kind: url
-name: CapSud1
-url: http://www.cap-sud.com/fr/searchestate?option=com_estatelist&purposesearch=1&categorysearch=house&budgetfromsearch=225000&budgettosearch=315000&countrysearch=1&zip1search=1000&zip2search=1030&zip3search=1040&zip4search=1050&code_postaux=9980&code_postal_auto=
-filter: element-by-class:article result,html2text:lynx,strip
----
-kind: url
-name: CapSud2
-url: http://www.cap-sud.com/fr/searchestate?option=com_estatelist&purposesearch=1&categorysearch=house&budgetfromsearch=225000&budgettosearch=315000&countrysearch=1&zip1search=1060&zip2search=1070&zip3search=1080&zip4search=1081&code_postaux=9980&code_postal_auto=
-filter: element-by-class:article result,html2text:lynx,strip
----
-kind: url
-name: CapSud3
-url: http://www.cap-sud.com/fr/searchestate?option=com_estatelist&purposesearch=1&categorysearch=house&budgetfromsearch=225000&budgettosearch=315000&countrysearch=1&zip1search=1082&zip2search=1083&zip3search=1090&zip4search=1140&code_postaux=9980&code_postal_auto=
-filter: element-by-class:article result,html2text:lynx,strip
----
-kind: url
-name: CapSud4
-url: http://www.cap-sud.com/fr/searchestate?option=com_estatelist&purposesearch=1&categorysearch=house&budgetfromsearch=225000&budgettosearch=315000&countrysearch=1&zip1search=1150&zip2search=1160&zip3search=1170&zip4search=1180&code_postaux=9980&code_postal_auto=
-filter: element-by-class:article result,html2text:lynx,strip
----
-kind: url
-name: CapSud5
-url: http://www.cap-sud.com/fr/searchestate?option=com_estatelist&purposesearch=1&categorysearch=house&budgetfromsearch=225000&budgettosearch=315000&countrysearch=1&zip1search=1190&zip2search=1200&zip3search=1210&zip4search=&code_postaux=9980&code_postal_auto=
-filter: element-by-class:article result,html2text:lynx,strip
----
-kind: url
 name: Noa
 url: http://www.noa-realestate.be/Web.mvc/fr-be/List1?SearchRequest=true&PurposeID=0&InvestmentEstate=false&CategoryID=1&PriceFrom=225000&PriceTo=315000&OrderBy=&X-Requested-With=XMLHttpRequest&AspxAutoDetectCookieSupport=1&pageNumber=0
 filter: element-by-class:list-mosaic-caption,html2text:lynx,strip

@@ -52,3 +52,51 @@ headers:
   Connection: keep-alive
   DNT: '1'
 filter: "immovlan_json,strip"
+---
+kind: url
+name: ImmoWeb
+url: https://www.immoweb.be/fr/recherche/maison/a-vendre?zips=1850,1831,1800,1830,1930,1860,1731,1970&districts=21&minprice=225000&maxprice=315000&minroom=3&ajax=true
+headers:
+  Accept-Encoding: gzip, deflate, br
+  Accept-Language: en-US,en;q=0.9
+  Upgrade-Insecure-Requests: '1'
+  User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko)
+    Chrome/62.0.3202.94 Safari/537.36
+  Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+  Connection: keep-alive
+filter: "element-by-class:result-xl,html2text:lynx,strip"
+---
+kind: url
+name: Era
+url: https://www.era.be/nl/te-koop/brussel/huis?muni-brussel=brussel&price=225000+315000&rooms=3+4+5+6&muni-machelen=machelen&muni-vilvoorde=vilvoorde&muni-zaventem=zaventem&muni-grimbergen=grimbergen&towns=diegem
+filter: element-by-class:group-main,html2text:lynx,strip
+---
+kind: url
+name: LogicImmo
+url: http://www.logic-immo.be/en/buy/houses-for-sale/brussels-0_diegem-1831_grimbergen-whole-city_vilvoorde-whole-city_machelen-whole-city,1,225000-315000---3---update_date-,---,---.html
+headers:
+  Host: www.logic-immo.be
+  User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/57.0
+  Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  Accept-Language: en-US,en;q=0.5
+  Accept-Encoding: gzip, deflate
+  Referer: http://www.logic-immo.be/en/buy/houses-for-sale/brussels-0_diegem-1831_grimbergen-whole-city_vilvoorde-whole-city_machelen-whole-city,1,225000-315000---3----,---,---.html
+  Connection: keep-alive
+  Upgrade-Insecure-Requests: '1'
+  DNT: '1'
+filter: element-by-class:property-description,html2text:lynx,strip
+---
+kind: url
+name: zimmo
+url: https://www.zimmo.be/fr/biens/?status=1&type%5B0%5D=5&priceMin=225000&priceMax=315000&priceIncludeUnknown=0&priceChangedOnly=0&bedroomsMin=3&bedroomsIncludeUnknown=0&bathroomsIncludeUnknown=1&constructionIncludeUnknown=1&livingAreaIncludeUnknown=1&landAreaIncludeUnknown=1&commercialAreaIncludeUnknown=1&yearOfConstructionIncludeUnknown=1&epcIncludeUnknown=1&queryCondition=and&includeNoPhotos=1&includeNoAddress=1&onlyRecent=0&onlyRecentlyUpdated=0&isPlus=0&region=list&district=MzREBgYGYIIYAFMH0gOGICEA&sort=recent&sort_order=desc
+headers:
+  Host: www.zimmo.be
+  User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/57.0
+  Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  Accept-Language: en-US,en;q=0.5
+  Accept-Encoding: gzip, deflate, br
+  Referer: https://www.zimmo.be/fr/biens/?status=1&type%5B0%5D=5&hash=e040124ab4e370cd3ba2049c4b47ca5f&priceMin=225000&priceMax=315000&priceIncludeUnknown=0&priceChangedOnly=0&bedroomsMin=3&bedroomsIncludeUnknown=0&bathroomsIncludeUnknown=1&constructionIncludeUnknown=1&livingAreaIncludeUnknown=1&landAreaIncludeUnknown=1&commercialAreaIncludeUnknown=1&yearOfConstructionIncludeUnknown=1&epcIncludeUnknown=1&queryCondition=and&includeNoPhotos=1&includeNoAddress=1&onlyRecent=0&onlyRecentlyUpdated=0&isPlus=0&region=list&district=MzREBgYGYIIYAFMH0gOGICEA
+  Connection: keep-alive
+  Upgrade-Insecure-Requests: '1'
+  DNT: '1'
+filter: "element-by-class:gallery,html2text:lynx,strip"

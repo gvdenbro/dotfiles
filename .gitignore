@@ -1,2 +1,7 @@
 .idea
 *.iml
+tmux-copycat/
+tmux-open/
+tmux-resurrect/
+tmux-sensible/
+

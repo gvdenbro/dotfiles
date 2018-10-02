@@ -39,13 +39,9 @@ if [ -z $TMUX_POWERLINE_RIGHT_STATUS_SEGMENTS ]; then
 		#"earthquake 3 0" \
 		"pwd 89 211" \
 		#"macos_notification_count 29 255" \
-		"mailcount 9 255" \
-		"now_playing 234 37" \
 		#"cpu 240 136" \
 		"load 237 167" \
 		#"tmux_mem_cpu_load 234 136" \
-		"battery 137 127" \
-		"weather 37 255" \
 		#"rainbarf 0 ${TMUX_POWERLINE_DEFAULT_FOREGROUND_COLOR}" \
 		#"xkb_layout 125 117" \
 		"date_day 235 136" \

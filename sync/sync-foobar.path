@@ -1,6 +1,0 @@
-[Unit]
-Description=SyncFoobar
-[Path]
-PathExists=/dev/disk/by-label/corsair
-[Install]
-WantedBy=multi-user.target

@@ -1,5 +1,0 @@
-[Unit]
-Description=SyncFoobar
-[Service]
-ExecStartPre=/bin/sleep 5s
-ExecStart=/home/greg/.local/bin/sync-foobar.sh

@@ -40,7 +40,7 @@ if [ -z $TMUX_POWERLINE_RIGHT_STATUS_SEGMENTS ]; then
 		"pwd 89 211" \
 		#"macos_notification_count 29 255" \
 		#"cpu 240 136" \
-		"load 237 167" \
+		#"load 237 167" \
 		#"tmux_mem_cpu_load 234 136" \
 		#"rainbarf 0 ${TMUX_POWERLINE_DEFAULT_FOREGROUND_COLOR}" \
 		#"xkb_layout 125 117" \

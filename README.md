@@ -1,5 +1,13 @@
-# Stow it
-- install stow and...
-# subtrees
-- git subtree add --prefix tmux/.tmux/powerline https://github.com/erikw/tmux-powerline.git master --squash
-- git subtree add --prefix tmux/.tmux/plugins/tpm https://github.com/tmux-plugins/tpm.git master --squash
+# Install
+- git clone
+- git submodules init
+- git submodules update
+- stow the appropriate directories
+
+# tmux configuration
+- stow tmux
+- launch tmux
+- prefix + I => will install the appropriate plugins (copycat, etc.)
+
+# alacritty configuration
+- stow alacritty

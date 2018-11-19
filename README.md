@@ -11,3 +11,6 @@
 
 # alacritty configuration
 ```stow alacritty```
+
+# other
+- works best with ```UbuntuMono Nerd Font``` installed

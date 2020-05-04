@@ -4,3 +4,4 @@ alias gergcopy='xclip -selection c'
 #alias bat='bat -p'
 alias xo="xdg-open"
 alias ffnt='firefox --new-tab'
+alias tmux='TERM=screen-256color tmux'

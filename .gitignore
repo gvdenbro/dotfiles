@@ -5,4 +5,4 @@ tmux-open/
 tmux-resurrect/
 tmux-sensible/
 tmux/.tmux/resurrect/
-
+tmux/.tmux/plugins/

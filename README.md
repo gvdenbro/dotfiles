@@ -14,3 +14,14 @@
 
 # other
 - works best with ```UbuntuMono Nerd Font``` installed
+
+
+# ideas
+- tmux
+    * set current path in pane title
+    * truncate parts of path if too long
+    * git info? in tmux status bar? as to not polute prompt visually and more performant prompt?
+- prompt
+    * current dir name
+    * prompt character (with color - previous command failed or not) 
+

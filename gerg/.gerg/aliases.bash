@@ -6,5 +6,6 @@ alias xo="xdg-open"
 alias ffnt='firefox --new-tab'
 alias tmux='TERM=screen-256color tmux'
 alias gergocr='ocrmypdf -l fra+nld+eng --deskew --jobs 4'
+alias gergocrdocker='docker run --rm  -i --user "$(id -u):$(id -g)" --workdir /data -v "$PWD:/data" ocrmypdf --deskew --jobs 4'
 alias pandoc='podman run --rm -v `pwd`:/pandoc docker://docker.io/dalibo/pandocker'
 alias ioanyoutube='youtube-dl -f "bestvideo[ext=mp4]+best[filesize<400M]" --dateafter now-2weeks --playlist-end 10 --match-filter "duration > 180 & duration < 3700" --max-downloads 5 -o "%(title)s.%(ext)s"'

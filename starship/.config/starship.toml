@@ -2,7 +2,7 @@
 [line_break]
 disabled = true
 [git_branch]
-format = "[$branch]($style) "
+format = "[$symbol$branch]($style) "
 [java]
 format = "[$symbol]($style)"
 symbol = "☕"

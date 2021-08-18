@@ -9,6 +9,14 @@
 - launch tmux
 - ```prefix + I``` => will install the appropriate plugins (copycat, etc.)
 
+Put the following in ~/.zshrc to add paths in tmux pane titles
+```
+function set_win_title() {
+	echo -ne "\033]0; $(print -rD "$PWD") \007"
+}
+precmd_functions+=(set_win_title)
+```
+
 # alacritty configuration
 ```stow --target=$HOME alacritty```
 

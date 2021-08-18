@@ -96,10 +96,10 @@ font:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family: Fira Code Light
+    family: FiraCode Nerd Font Mono
 
     # The `style` can be specified to pick a specific face.
-    #style: Regular
+    style: Light
 
   # Bold font face
   bold:
@@ -107,7 +107,7 @@ font:
     #
     # If the bold family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: Fira Code Light
+    family: FiraCode Nerd Font Mono
 
     # The `style` can be specified to pick a specific face.
     #style: Bold
@@ -118,7 +118,7 @@ font:
     #
     # If the italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: Fira Code Light
+    family: FiraCode Nerd Font Mono
 
     # The `style` can be specified to pick a specific face.
     #style: Italic

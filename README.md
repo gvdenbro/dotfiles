@@ -5,16 +5,18 @@
 - then stow the appropriate directories
 
 # tmux configuration
-- ```stow tmux```
+- ```stow --target=$HOME tmux```
 - launch tmux
 - ```prefix + I``` => will install the appropriate plugins (copycat, etc.)
 
 # alacritty configuration
-```stow alacritty```
+```stow --target=$HOME alacritty```
+
+# starship configuration
+```stow --target=$HOME starship```
 
 # other
-- works best with ```UbuntuMono Nerd Font``` installed
-
+- works best with ```Nerd Font``` installed
 
 # ideas
 - tmux

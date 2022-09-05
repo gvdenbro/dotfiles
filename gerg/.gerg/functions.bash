@@ -10,5 +10,4 @@ gergcheat() {
 
 ioanpdfbook() {
     convert $1 -compress jpeg -gravity center -background white -resize 1240x1753 -extent 1240x1753 -units PixelsPerInch -density 150x150 $2.pdf
-    pdfjam $2.pdf --nup 2x1 --landscape --outfile $2-2up.pdf
 }

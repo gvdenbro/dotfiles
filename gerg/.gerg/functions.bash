@@ -12,6 +12,12 @@ ioanpdfbook() {
     convert $1 -compress jpeg -gravity center -background white -resize 1240x1753 -extent 1240x1753 -units PixelsPerInch -density 150x150 $2.pdf
 }
 
+gergryanairpdf() {
+    OUTPUT_FILENAME=$(mktemp)
+    convert -density 300 -crop '50%x50%+50%+0' -gravity northeast $1 $OUTPUT_FILENAME.png
+    montage ${OUTPUT_FILENAME}*.png -tile 2x2 -geometry 2000 -page A4 ${1%.*}-cropped.pdf
+}
+
 gergrecordandtranscribe() {
 
     pulse_source="default"

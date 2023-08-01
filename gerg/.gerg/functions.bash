@@ -18,6 +18,13 @@ gergryanairpdf() {
     montage ${OUTPUT_FILENAME}*.png -tile 2x2 -geometry 2000 -page A4 ${1%.*}-cropped.pdf
 }
 
+
+gergwizzpdf() {
+    OUTPUT_FILENAME=$(mktemp)
+    convert -density 300 -crop '100%x50%+100%+0' -gravity northeast $1 $OUTPUT_FILENAME.png
+    montage ${OUTPUT_FILENAME}*.png -tile 1x2 -geometry 1000 -page A4 ${1%.*}-cropped.pdf
+}
+
 gergrecordandtranscribe() {
 
     pulse_source="default"
@@ -58,6 +65,40 @@ gergrecordandtranscribe() {
 
     # Wait for the background process to finish
     wait $PID
+
+    # Execute a command on the output file
+    $HOME/dev/whisper.cpp/main -l $language -m $HOME/dev/whisper.cpp/models/ggml-${model}.bin -f $OUTPUT_FILENAME.wav -osrt
+    ffmpeg -i $OUTPUT_FILENAME.wav -i $OUTPUT_FILENAME.wav.srt -c:a libmp3lame -q:a 6 -map 0:a -map 1:s -c:v copy -f matroska $OUTPUT_FILENAME.mkv
+}
+
+
+gergtranscribe() {
+
+    language="en"
+    model="large"
+    wav_file="sample.wav"
+
+    if [ -z "$1" ]; then
+        echo "Usage: $0 [language] [model] [wav_file]"
+        echo ""
+        echo "  Example: wav file must be pcm_s16le, 16000 Hz"
+        echo "    $0 $language $model $wav_file"
+        echo ""
+        echo "No language specified, using default: $language"
+    else
+        language="$1"
+    fi
+
+    if [ -n "$2" ]; then
+        model="$2"
+    fi
+
+    if [ -n "$3" ]; then
+        wav_file="$3"
+    fi
+
+    OUTPUT_FILENAME=$(readlink -f "$wav_file")
+    OUTPUT_FILENAME="${OUTPUT_FILENAME%.*}"
 
     # Execute a command on the output file
     $HOME/dev/whisper.cpp/main -l $language -m $HOME/dev/whisper.cpp/models/ggml-${model}.bin -f $OUTPUT_FILENAME.wav -osrt

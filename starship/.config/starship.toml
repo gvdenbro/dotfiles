@@ -13,3 +13,6 @@ symbol = " "
 format = "[$duration]($style) "
 [package]
 disabled = true
+[battery]
+disabled = true
+
